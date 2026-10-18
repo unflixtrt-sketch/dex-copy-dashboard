@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DEX Copy · Araştırma & Demo Panel</title>
+<style>
+:root{--bg:#0a0c12;--panel:#12151e;--panel2:#171b27;--line:#232838;--tx:#e6e9f2;--mut:#8089a3;--acc:#7c5cff;--acc2:#27d3a2;--red:#ff5d73;--amb:#ffb84d;--blue:#4da3ff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{background:radial-gradient(1200px 500px at 85% -10%,rgba(124,92,255,.14),transparent),radial-gradient(900px 400px at -10% 0,rgba(39,211,162,.08),transparent),var(--bg)}
+.wrap{max-width:1500px;margin:0 auto;padding:22px 24px 60px}
+header{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:18px}
+h1{font-size:20px;margin:0;font-weight:700;letter-spacing:.2px;display:flex;align-items:center;gap:10px}
+.logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font-weight:800;color:#fff;font-size:15px}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:12px;border:1px solid var(--line);background:var(--panel);color:var(--mut)}
+.badge.warn{color:var(--amb);border-color:rgba(255,184,77,.35);background:rgba(255,184,77,.07)}
+.badge.ok{color:var(--acc2);border-color:rgba(39,211,162,.35);background:rgba(39,211,162,.07)}
+.badge.bad{color:var(--red);border-color:rgba(255,93,115,.35);background:rgba(255,93,115,.07)}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
+.seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:3px}
+.seg button{background:none;border:0;color:var(--mut);padding:7px 14px;border-radius:9px;cursor:pointer;font-weight:600;font-size:13px}
+.seg button.on{background:var(--panel2);color:var(--tx);box-shadow:0 0 0 1px var(--line) inset}
+.grid{display:grid;gap:14px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin-bottom:14px}
+.card{background:linear-gradient(180deg,var(--panel),#0f121a);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.card h3{margin:0 0 4px;font-size:12px;font-weight:600;color:var(--mut);text-transform:uppercase;letter-spacing:.8px}
+.kpi .v{font-size:25px;font-weight:700;letter-spacing:-.3px}
+.kpi .s{font-size:12px;color:var(--mut);margin-top:2px}
+.pos{color:var(--acc2)}.neg{color:var(--red)}.mut{color:var(--mut)}
+.two{grid-template-columns:2fr 1fr}
+@media(max-width:1000px){.two{grid-template-columns:1fr}}
+.sec{margin-top:14px}
+.sec-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:10px;flex-wrap:wrap}
+.sec-h h2{margin:0;font-size:15px;font-weight:700}
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--mut);font-weight:600;text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl td{padding:10px;border-bottom:1px solid #1b2030;vertical-align:top}
+.tbl tr:hover td{background:rgba(255,255,255,.015)}
+.r{text-align:right}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.scroll{overflow:auto;border-radius:12px}
+.tag{display:inline-block;padding:2px 8px;border-radius:7px;font-size:11px;font-weight:600;border:1px solid var(--line);color:var(--mut)}
+.tag.sol{color:#b79dff;border-color:rgba(124,92,255,.4);background:rgba(124,92,255,.08)}
+.tag.rh{color:#c6ff4d;border-color:rgba(198,255,77,.35);background:rgba(198,255,77,.06)}
+.tag.acc{color:var(--acc2);border-color:rgba(39,211,162,.35)}.tag.watch{color:var(--amb);border-color:rgba(255,184,77,.35)}.tag.rej{color:var(--red);border-color:rgba(255,93,115,.35)}
+.note{font-size:12px;color:var(--mut);max-width:430px}
+.flags span{display:inline-block;margin:2px 4px 0 0;padding:1px 7px;border-radius:6px;background:rgba(255,184,77,.1);color:var(--amb);font-size:11px}
+.null{color:#4d556d}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.copy{cursor:pointer}
+.lastdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.empty{color:var(--mut);padding:22px;text-align:center;font-size:13px}
+.bal{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #1b2030}
+.bal:last-child{border:0}
+.btn{background:var(--panel2);border:1px solid var(--line);color:var(--tx);padding:7px 12px;border-radius:10px;cursor:pointer;font-weight:600;font-size:12px}
+.btn:hover{border-color:var(--acc)}
+svg text{fill:var(--mut);font-size:11px}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--mut);flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.foot{margin-top:26px;font-size:12px;color:var(--mut)}
+details summary{cursor:pointer;color:var(--blue);font-size:12px}
+.tabs{display:flex;gap:6px}
+#wtbl td:last-child{min-width:360px}#wtbl td:nth-child(3){min-width:110px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1><span class="logo">⇄</span> DEX Copy <span class="mut" style="font-weight:500">· araştırma &amp; demo panel</span></h1>
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+    <span class="badge warn"><span class="dot"></span> DEMO / ARAŞTIRMA — gerçek işlem yok</span>
+    <span class="badge" id="upd">yükleniyor…</span>
+    <div class="seg" id="chainSeg"><button data-c="all" class="on">Tümü</button><button data-c="solana">Solana</button><button data-c="robinhood">Robinhood</button></div>
+    <button class="btn" id="reload">↻ Yenile</button>
+  </div>
+</header>
+
+<div class="grid kpis" id="kpis"></div>
+
+<div class="grid two">
+  <div class="card">
+    <div class="sec-h"><h2>PnL grafiği</h2>
+      <div class="seg" id="chartSeg"><button data-m="eq" class="on">Demo hesap</button><button data-m="w7">Cüzdan 7g</button><button data-m="w30">Cüzdan 30g</button></div></div>
+    <div id="chart" style="height:260px"></div>
+    <div class="legend" id="chartLegend"></div>
+  </div>
+  <div class="card">
+    <div class="sec-h"><h2>Bakiyeler</h2></div>
+    <div id="balances"></div>
+    <div class="note" style="margin-top:10px">Gerçek cüzdan alanları, sen bir işlem cüzdanı bağlayana kadar boş kalır. Bu panel özel anahtar istemez ve işlem göndermez.</div>
+  </div>
+</div>
+
+<div class="card sec">
+  <div class="sec-h"><h2>Takip edilen cüzdanlar <span class="mut" id="wcount"></span></h2><span class="note">Boş alan = kaynak veri vermedi (uydurulmadı). PnL’ler kaynağın raporladığı değerlerdir, doğrulanmamıştır.</span></div>
+  <div class="scroll"><table class="tbl" id="wtbl"></table></div>
+</div>
+
+<div class="grid two sec">
+  <div class="card">
+    <div class="sec-h"><h2>Açık demo pozisyonlar</h2><span class="note" id="openNote"></span></div>
+    <div class="scroll"><table class="tbl" id="openTbl"></table></div>
+  </div>
+  <div class="card">
+    <div class="sec-h"><h2>Takip edilen cüzdanların açık pozisyonları</h2></div>
+    <div id="wpos" class="scroll" style="max-height:340px"></div>
+  </div>
+</div>
+
+<div class="card sec">
+  <div class="sec-h"><h2>Kapanan demo işlemler</h2><span class="note" id="closedNote"></span></div>
+  <div class="scroll"><table class="tbl" id="closedTbl"></table></div>
+</div>
+
+<div class="card sec">
+  <div class="sec-h"><h2>Demo kopya günlüğü</h2><span class="note" id="rulesNote"></span></div>
+  <div class="scroll" style="max-height:420px"><table class="tbl" id="logTbl"></table></div>
+</div>
+
+<div class="foot" id="foot"></div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+let D=null, chain=new URLSearchParams(location.search).get('chain')||'all', cmode='eq';
+const fmt$=(v,d=2)=>v==null?'<span class="null">—</span>':(v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmtN=(v,d=0)=>v==null?'<span class="null">—</span>':v.toLocaleString('en-US',{maximumFractionDigits:d});
+const cls=v=>v==null?'':(v>0?'pos':(v<0?'neg':''));
+const pnl=(v,d=0)=>v==null?'<span class="null">—</span>':`<span class="${cls(v)}">${v>0?'+':''}${fmt$(v,d)}</span>`;
+const px=v=>{if(v==null)return '<span class="null">—</span>';let d=v>=1?4:v>=0.01?6:10;return '$'+v.toFixed(d).replace(/0+$/,'').replace(/\.$/,'')};
+const short=a=>a.slice(0,5)+'…'+a.slice(-4);
+const ago=e=>{if(!e)return null;const m=(Date.now()/1000-e)/60;return m<1?'şimdi':m<60?Math.round(m)+' dk önce':m<1440?(m/60).toFixed(1)+' sa önce':Math.round(m/1440)+' g önce'};
+const hold=s=>s==null?'<span class="null">—</span>':s<3600?Math.round(s/60)+' dk':(s/3600).toFixed(1)+' sa';
+const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const explorer=w=>w.chain==='solana'?`https://solscan.io/account/${w.address}`:`https://robinhoodchain.blockscout.com/address/${w.address}`;
+const tokUrl=(c,m)=>c==='robinhood'?`https://dexscreener.com/robinhood/${m}`:`https://dexscreener.com/solana/${m}`;
+
+async function load(){
+  try{
+    const r=await fetch('data.json?'+Date.now());D=await r.json();render();
+  }catch(e){$('#upd').innerHTML='<span class="dot"></span> data.json okunamadı';$('#upd').className='badge bad'}
+}
+function wf(){return D.wallets.filter(w=>chain==='all'||w.chain===chain)}
+function render(){
+  const m=D.meta, p=D.paper, b=D.balances;
+  $('#upd').className='badge ok';$('#upd').innerHTML=`<span class="dot"></span> güncelleme: ${m.generated_at.replace('T',' ').slice(0,19)} (UTC+3)`;
+  // KPIs
+  const chainOpen=p.open.filter(x=>chain==='all'||x.chain===chain);
+  const chainClosed=p.closed.filter(x=>chain==='all'||x.chain===chain);
+  const real=chainClosed.reduce((s,x)=>s+x.pnl_usd,0), unr=chainOpen.reduce((s,x)=>s+x.unrealized_usd,0);
+  const wins=chainClosed.filter(x=>x.pnl_usd>0).length;
+  const eq=p.equity;
+  $('#kpis').innerHTML=[
+   ['Demo bakiye (equity)',fmt$(eq),`başlangıç $${p.start_balance} · toplam ${pnl(eq-p.start_balance,2)}`],
+   ['Serbest nakit',fmt$(p.cash),`işlem başı max $${p.entry_usd}`],
+   ['Açık demo pozisyon',chainOpen.length,`değer ${fmt$(chainOpen.reduce((s,x)=>s+x.value_usd,0))}`],
+   ['Gerçekleşen PnL',pnl(real,2),`${chainClosed.length} kapalı · kazanç ${chainClosed.length?Math.round(wins/chainClosed.length*100)+'%':'—'}`],
+   ['Gerçekleşmemiş PnL',pnl(unr,2),'canlı fiyat (DexScreener)'],
+   ['SOL fiyatı / ETH',`${m.sol_usd?'$'+m.sol_usd.toFixed(2):'—'}`,`ETH ${m.eth_usd?'$'+m.eth_usd.toFixed(0):'—'}`],
+  ].map(([t,v,s])=>`<div class="card kpi"><h3>${t}</h3><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
+  // balances
+  $('#balances').innerHTML=`
+   <div class="bal"><div><b>Demo hesap</b><div class="note">kağıt üzerinde, USD</div></div><div class="r"><b>${fmt$(p.equity)}</b><div class="note">nakit ${fmt$(p.cash)}</div></div></div>
+   <div class="bal"><div><span class="tag sol">Solana</span> <b>SOL bakiyem</b><div class="note">gerçek cüzdan</div></div><div class="r"><span class="badge">bağlı değil</span></div></div>
+   <div class="bal"><div><span class="tag rh">Robinhood</span> <b>ETH bakiyem</b><div class="note">gerçek cüzdan</div></div><div class="r"><span class="badge">bağlı değil</span></div></div>`;
+  renderWallets();renderOpen();renderClosed();renderLog();renderChart();renderWPos();
+  $('#rulesNote').textContent=p.rules.copy+` · slipaj ${p.rules.slippage_pct}% · min likidite $${p.rules.min_liquidity_usd}`;
+  $('#foot').innerHTML=`Kaynaklar: ${(D.sources||[]).map(s=>`<span class="tag" title="${esc(s.note)}">${esc(s.name)} · ${esc(s.status)}</span>`).join(' ')}<br><br>${esc(p.replay_note)}<br>Bu panel yatırım tavsiyesi değildir; yalnızca araştırma ve kağıt (demo) işlem içindir.`+(m.errors&&m.errors.length?`<br><span class="neg">Hatalar: ${esc(m.errors.join('; '))}</span>`:'');
+}
+function renderWallets(){
+  const ws=wf();$('#wcount').textContent=`(${ws.length})`;
+  const rows=ws.map(w=>{
+    const e=w.last_trade_epoch, mins=e?(Date.now()/1000-e)/60:null;
+    const col=mins==null?'#4d556d':mins<=180?'var(--acc2)':'var(--red)';
+    const wr=w.win_rate_pct;
+    const verdict={accepted:'<span class="tag acc">onaylı</span>',watchlist:'<span class="tag watch">izleme</span>',rejected:'<span class="tag rej">red</span>'}[w.verdict]||'';
+    return `<tr>
+     <td><b>${esc(w.label||'—')}</b><div class="mono mut copy" title="kopyala" onclick="navigator.clipboard.writeText('${w.address}')">${short(w.address)} ⧉</div><a class="note" href="${explorer(w)}" target="_blank">explorer ↗</a></td>
+     <td><span class="tag ${w.chain==='solana'?'sol':'rh'}">${w.chain==='solana'?'Solana':'Robinhood'}</span><div style="margin-top:4px">${verdict} ${w.copy_enabled?'<span class="tag acc" title="demo kopyalama aktif">kopya ✓</span>':''}</div></td>
+     <td class="note">${esc((w.sources||[]).join(', '))}</td>
+     <td class="r">${pnl(w.pnl_7d_usd)}${w.pnl_7d_basis?`<div class="note">${esc(w.pnl_7d_basis)}</div>`:''}</td>
+     <td class="r">${pnl(w.pnl_30d_usd)}${w.pnl_30d_basis?`<div class="note">${esc(w.pnl_30d_basis)}</div>`:''}</td>
+     <td class="r">${wr==null?'<span class="null">—</span>':wr.toFixed(0)+'%'}${w.win_loss?`<div class="note">${esc(w.win_loss)}</div>`:''}</td>
+     <td class="r">${fmtN(w.trades_30d)}${w.trades_7d!=null?`<div class="note">7g: ${fmtN(w.trades_7d)}</div>`:''}</td>
+     <td class="r">${hold(w.avg_hold_sec)}</td>
+     <td><span class="lastdot" style="background:${col}"></span>${w.last_trade_ist?w.last_trade_ist.replace('T',' ').slice(5,19):'<span class="null">—</span>'}<div class="note">${ago(e)||''}</div><div class="note" style="opacity:.7">${esc(w.last_trade_source||'')}</div></td>
+     <td class="r">${w.typical_position_usd==null?'<span class="null">—</span>':fmt$(w.typical_position_usd,0)}<div class="note">${esc(w.typical_position_note||'')}</div></td>
+     <td><div class="note">${esc(w.risk_note||'')}</div><div class="flags">${(w.risk_flags||[]).map(f=>`<span>${esc(f)}</span>`).join('')}</div></td>
+    </tr>`}).join('');
+  $('#wtbl').innerHTML=`<thead><tr><th>Cüzdan</th><th>Zincir / durum</th><th>Kaynak</th><th class="r">PnL 7g</th><th class="r">PnL 30g</th><th class="r">Kazanma oranı</th><th class="r">İşlem</th><th class="r">Ort. tutma</th><th>Son işlem (UTC+3)</th><th class="r">Tipik pozisyon</th><th>Analiz / risk</th></tr></thead><tbody>${rows||'<tr><td colspan="11" class="empty">Bu zincirde cüzdan yok</td></tr>'}</tbody>`;
+}
+function renderOpen(){
+  const o=D.paper.open.filter(x=>chain==='all'||x.chain===chain);
+  $('#openNote').textContent=o.length?'':'';
+  $('#openTbl').innerHTML=`<thead><tr><th>Token</th><th>Kaynak cüzdan</th><th class="r">Giriş</th><th class="r">Güncel</th><th class="r">Gerçekleşmemiş</th><th>Açılış</th></tr></thead><tbody>${o.map(x=>`<tr>
+   <td><b><a href="${x.url||tokUrl(x.chain,x.mint)}" target="_blank">${esc(x.symbol)}</a></b><div class="note">$${x.size_usd.toFixed(0)} · ${x.qty.toLocaleString('en-US',{maximumFractionDigits:2})} adet</div></td>
+   <td>${esc(x.wallet_label)}<div class="mono mut">${short(x.wallet)}</div></td>
+   <td class="r">${px(x.entry_price)}<div class="note">${x.entry_basis==='live_dexscreener'?'canlı':'replay tahmini'}</div></td>
+   <td class="r">${px(x.current_price)}${x.price_live?'':'<div class="note">fiyat bayat</div>'}</td>
+   <td class="r">${pnl(x.unrealized_usd,2)}<div class="note ${cls(x.unrealized_pct)}">${x.unrealized_pct>0?'+':''}${x.unrealized_pct.toFixed(1)}%</div></td>
+   <td class="note">${x.opened.replace('T',' ').slice(5,19)}</td></tr>`).join('')||'<tr><td colspan="6" class="empty">Açık demo pozisyon yok</td></tr>'}</tbody>`;
+}
+function renderClosed(){
+  const c=D.paper.closed.filter(x=>chain==='all'||x.chain===chain);
+  const t=c.reduce((s,x)=>s+x.pnl_usd,0);
+  $('#closedNote').innerHTML=c.length?`toplam gerçekleşen: ${pnl(t,2)}`:'';
+  $('#closedTbl').innerHTML=`<thead><tr><th>Token</th><th>Kaynak cüzdan</th><th class="r">Giriş</th><th class="r">Çıkış</th><th class="r">PnL</th><th>Kapanış</th></tr></thead><tbody>${c.map(x=>`<tr>
+   <td><b>${esc(x.symbol)}</b><div class="note">$${x.size_usd.toFixed(0)}</div></td><td>${esc(x.wallet_label)}</td>
+   <td class="r">${px(x.entry_price)}</td><td class="r">${px(x.exit_price)}</td>
+   <td class="r">${pnl(x.pnl_usd,2)}<div class="note ${cls(x.pnl_pct)}">${x.pnl_pct>0?'+':''}${x.pnl_pct.toFixed(1)}%</div></td>
+   <td class="note">${x.closed.replace('T',' ').slice(5,19)}<div>${esc(x.close_reason)}</div></td></tr>`).join('')||'<tr><td colspan="6" class="empty">Henüz kapanan demo işlem yok</td></tr>'}</tbody>`;
+}
+function renderLog(){
+  const L=D.paper.log.filter(x=>{if(chain==='all')return true;const w=D.wallets.find(w=>w.address===x.wallet);return w&&w.chain===chain});
+  const k={open:'<span class="tag acc">AÇ</span>',close:'<span class="tag sol">KAPAT</span>',skip:'<span class="tag watch">ATLA</span>'};
+  $('#logTbl').innerHTML=`<thead><tr><th>Zaman</th><th>Olay</th><th>Kaynak cüzdan</th><th>Token</th><th class="r">Fiyat</th><th>Not</th></tr></thead><tbody>${L.map(x=>`<tr>
+   <td class="note">${x.ts.replace('T',' ').slice(5,19)}</td><td>${k[x.kind]||x.kind}</td><td>${esc(x.wallet_label)}</td><td><b>${esc(x.symbol)}</b></td>
+   <td class="r">${x.price!=null?px(x.price):'<span class="null">—</span>'}${x.size_usd?`<div class="note">$${x.size_usd}</div>`:''}</td>
+   <td class="note">${x.pnl_usd!=null?pnl(x.pnl_usd,2)+' · ':''}${esc(x.note||x.reason||'')}</td></tr>`).join('')||'<tr><td colspan="6" class="empty">Henüz kayıt yok</td></tr>'}</tbody>`;
+}
+function renderWPos(){
+  const ws=wf().filter(w=>(w.open_positions||[]).length);
+  $('#wpos').innerHTML=ws.map(w=>`<div style="margin-bottom:12px"><div><b>${esc(w.label)}</b> <span class="tag ${w.chain==='solana'?'sol':'rh'}">${w.chain}</span> ${w.sol_balance!=null?`<span class="note">SOL: ${w.sol_balance.toFixed(2)}</span>`:''}</div>
+   <table class="tbl"><tbody>${w.open_positions.slice(0,5).map(p=>`<tr><td><a href="${tokUrl(w.chain,p.mint)}" target="_blank">${esc(p.symbol)}</a></td><td class="r">${fmt$(p.value_usd,0)}</td><td class="r note">${px(p.price)}</td></tr>`).join('')}</tbody></table><div class="note">${esc(w.open_positions_note||'')}</div></div>`).join('')||'<div class="empty">Cüzdan pozisyon verisi yok (RPC sınırı olabilir)</div>';
+}
+function renderChart(){
+  const el=$('#chart');let W=el.clientWidth||700,H=260,pad={l:48,r:12,t:10,b:26};
+  if(cmode==='eq'){
+    const cv=(D.paper.equity_curve||[]);
+    if(cv.length<2){const v=cv[0]?cv[0].equity:D.paper.start_balance;el.innerHTML=`<div class="empty" style="padding-top:90px">Demo equity eğrisi için en az 2 ölçüm gerekir. Şu an: ${fmt$(v)}<br><span class="note">collector çalıştıkça çizilir</span></div>`;$('#chartLegend').innerHTML='';return}
+    const xs=cv.map(c=>c.epoch),ys=cv.map(c=>c.equity),x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys,D.paper.start_balance),y1=Math.max(...ys,D.paper.start_balance);
+    const sx=x=>pad.l+(x-x0)/(x1-x0||1)*(W-pad.l-pad.r),sy=y=>H-pad.b-(y-y0)/((y1-y0)||1)*(H-pad.t-pad.b);
+    const path=cv.map((c,i)=>(i?'L':'M')+sx(c.epoch).toFixed(1)+','+sy(c.equity).toFixed(1)).join('');
+    const area=path+`L${sx(x1)},${H-pad.b}L${sx(x0)},${H-pad.b}Z`;
+    let grid='';for(let i=0;i<=4;i++){const v=y0+(y1-y0)*i/4,y=sy(v);grid+=`<line x1="${pad.l}" x2="${W-pad.r}" y1="${y}" y2="${y}" stroke="#1b2030"/><text x="4" y="${y+4}">$${v.toFixed(2)}</text>`}
+    const base=sy(D.paper.start_balance);
+    const lt=new Date(x1*1000+3*3600e3).toISOString().slice(11,16), ft=new Date(x0*1000+3*3600e3).toISOString().slice(5,16).replace('T',' ');
+    el.innerHTML=`<svg width="${W}" height="${H}"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c5cff" stop-opacity=".35"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></linearGradient></defs>${grid}<line x1="${pad.l}" x2="${W-pad.r}" y1="${base}" y2="${base}" stroke="#ffb84d" stroke-dasharray="4 4" opacity=".6"/><path d="${area}" fill="url(#g)"/><path d="${path}" fill="none" stroke="#7c5cff" stroke-width="2.2"/><text x="${pad.l}" y="${H-6}">${ft}</text><text x="${W-pad.r-30}" y="${H-6}">${lt}</text></svg>`;
+    $('#chartLegend').innerHTML='<span><i style="background:#7c5cff"></i>demo equity</span><span><i style="background:#ffb84d"></i>başlangıç $100</span>';
+  }else{
+    const key=cmode==='w7'?'pnl_7d_usd':'pnl_30d_usd';
+    const ws=wf().filter(w=>w[key]!=null).sort((a,b)=>b[key]-a[key]);
+    if(!ws.length){el.innerHTML='<div class="empty" style="padding-top:100px">Bu filtrede PnL verisi yok</div>';$('#chartLegend').innerHTML='';return}
+    const vals=ws.map(w=>w[key]),mx=Math.max(...vals.map(Math.abs)),bh=(H-pad.t-pad.b),bw=(W-pad.l-pad.r)/ws.length;
+    let s='';ws.forEach((w,i)=>{const v=w[key],h=Math.abs(v)/mx*(bh/2-6),y=v>=0?pad.t+bh/2-h:pad.t+bh/2;const x=pad.l+i*bw+bw*.15;
+      s+=`<rect x="${x}" y="${y}" width="${bw*.7}" height="${Math.max(h,1)}" rx="3" fill="${v>=0?'#27d3a2':'#ff5d73'}" opacity=".9"><title>${esc(w.label)}: $${Math.round(v).toLocaleString()}</title></rect><text x="${x+bw*.35}" y="${H-8}" text-anchor="middle" style="font-size:9px" transform="rotate(-35 ${x+bw*.35} ${H-8})">${esc((w.label||'').slice(0,9))}</text>`});
+    el.innerHTML=`<svg width="${W}" height="${H+14}"><line x1="${pad.l}" x2="${W-pad.r}" y1="${pad.t+bh/2}" y2="${pad.t+bh/2}" stroke="#232838"/><text x="4" y="${pad.t+10}">+$${Math.round(mx).toLocaleString()}</text><text x="4" y="${pad.t+bh-2}">-$${Math.round(mx).toLocaleString()}</text>${s}</svg>`;
+    $('#chartLegend').innerHTML='<span>Kaynakların raporladığı '+(cmode==='w7'?'7g':'30g')+' PnL (USD). Doğrulanmamış; kaynaklar farklı hesap yöntemi kullanır (ayrıntı tabloda).</span>';
+  }
+}
+$('#chainSeg').onclick=e=>{const b=e.target.closest('button');if(!b)return;chain=b.dataset.c;document.querySelectorAll('#chainSeg button').forEach(x=>x.classList.toggle('on',x===b));D&&render()};
+$('#chartSeg').onclick=e=>{const b=e.target.closest('button');if(!b)return;cmode=b.dataset.m;document.querySelectorAll('#chartSeg button').forEach(x=>x.classList.toggle('on',x===b));D&&renderChart()};
+$('#reload').onclick=load;window.addEventListener('resize',()=>D&&renderChart());
+document.querySelectorAll('#chainSeg button').forEach(x=>x.classList.toggle('on',x.dataset.c===chain));
+load();setInterval(load,30000);
+</script>
+</body>
+</html>

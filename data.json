@@ -1,0 +1,3016 @@
+{
+ "meta": {
+  "generated_at": "2026-10-18T14:47:56+03:00",
+  "generated_epoch": 1792324076.1644855,
+  "tz": "Europe/Istanbul (UTC+3)",
+  "refresh_seconds": 15.5,
+  "sol_usd": 103.7,
+  "eth_usd": 2411.59,
+  "mode": "RESEARCH + PAPER ONLY - gerçek işlem yok",
+  "errors": [],
+  "discovery": {
+   "built_at": "2026-10-18T10:51:36+03:00",
+   "solana_activity_window": "son 3 saat, gerçek swap (RPC)",
+   "note": "Boş (null) alan = kaynak vermedi. Avg hold süresi Solana için hiçbir halka açık kaynaktan alınamadı."
+  },
+  "rh_scan_at": null
+ },
+ "balances": {
+  "demo": {
+   "currency": "USD",
+   "start": 600.0,
+   "cash": 507.83063115990365,
+   "equity": 677.2487821842553
+  },
+  "solana": {
+   "connected": false,
+   "address": null,
+   "sol": null,
+   "label": "bağlı değil"
+  },
+  "robinhood": {
+   "connected": false,
+   "address": null,
+   "eth": null,
+   "label": "bağlı değil"
+  }
+ },
+ "wallets": [
+  {
+   "address": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+   "chain": "solana",
+   "label": "redmonster1",
+   "sources": [
+    "fomo-api solana board"
+   ],
+   "pnl_7d_usd": 31352,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": "fomo-api realized (FIFO), kapsam %76",
+   "pnl_30d_basis": null,
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": 154,
+   "trades_30d": null,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792323754,
+   "last_trade_ist": "2026-10-18T14:42:34+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 929,
+   "typical_position_note": "hacim/işlem (7d penceresi, fomo-api; ort. işlem boyutu)",
+   "open_positions": [
+    {
+     "mint": "CLrFZt7o6bE3xFXkYQHVkQBoRZXidZ82xAixUnfoogym",
+     "symbol": "TXGYM",
+     "amount": 27107458.878991,
+     "price": 0.0001322,
+     "value_usd": 3583.6060638026097,
+     "liq": 35686.81
+    },
+    {
+     "mint": "58QyXQ1UDgHh64EiTsCeevVM9cLPqBDNf3qZE6EdfUhZ",
+     "symbol": "FRONTIER",
+     "amount": 10.466813,
+     "price": 0.9386,
+     "value_usd": 9.8241506818,
+     "liq": 52130.98
+    },
+    {
+     "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+     "symbol": "neet",
+     "amount": 231.300874,
+     "price": 0.03134,
+     "value_usd": 7.24896939116,
+     "liq": 1814252.57
+    },
+    {
+     "mint": "WLDTE73PPdfFFjhpBz8Yuhvx5N45gvgEgyMXqwa3rFn",
+     "symbol": "WLD",
+     "amount": 7.85837681,
+     "price": 0.5022,
+     "value_usd": 3.946476833982,
+     "liq": 54713.33
+    },
+    {
+     "mint": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+     "symbol": "W",
+     "amount": 230.718781,
+     "price": 0.01324,
+     "value_usd": 3.05471666044,
+     "liq": 123867.94
+    },
+    {
+     "mint": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
+     "symbol": "XSTOK",
+     "amount": 20000.0,
+     "price": 0.0001516,
+     "value_usd": 3.032,
+     "liq": 33841.41
+    },
+    {
+     "mint": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+     "symbol": "STRK",
+     "amount": 36.302958674,
+     "price": 0.06167,
+     "value_usd": 2.2388034614255803,
+     "liq": 423494.2
+    },
+    {
+     "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+     "symbol": "XMR",
+     "amount": 0.003726275191,
+     "price": 578.88,
+     "value_usd": 2.15706618256608,
+     "liq": 39086.11
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "7g realized +$31k / 154 işlem; ancak maliyet-tabanı kapsamı %76 → PnL eksik olabilir. Çok sık işlem: kopya gecikmesi riski.",
+   "risk_flags": [
+    "kapsam %76",
+    "yüksek frekans"
+   ],
+   "swaps_3h_verified": 8,
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T14:42:34+03:00",
+     "side": "buy",
+     "mint": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
+     "usd": 91.0,
+     "sig": "4nSieBwDj2KJLXbu9JbkjG7nL6RE9LqU3VZiWVekXjszgGAT2v3EZNjDvpb1BvdBLhg6pecoRMhBNMPFM1zXtEWo"
+    },
+    {
+     "ts": "2026-10-18T14:42:19+03:00",
+     "side": "sell",
+     "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+     "usd": 490.5787099999998,
+     "sig": "DSExhHzLaFgPQozzTLHC8zkGKdPhUA24WPkafSzW3z8VBPSdvpub3xSp7iWaSporbS2KYe2rjJ35NY2CRsxbV3g"
+    },
+    {
+     "ts": "2026-10-18T14:39:52+03:00",
+     "side": "buy",
+     "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+     "usd": 19.0,
+     "sig": "3yUjQSdp22yRc1wZubczy1ePiCGx9NMCSFiN4SJiPvSBsj62hasvzTedD5Ni6CzayCRfgGJbVYK57oxBm4E6MgAx"
+    },
+    {
+     "ts": "2026-10-18T14:26:49+03:00",
+     "side": "sell",
+     "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+     "usd": 1318.776670000001,
+     "sig": "4GBEJMXm2R9sgnSxexnZs4QvzCzmq2As8hSk5Ydxyug1J1Nxgp88oJVVNizuGpTZGV5bbgnE2knka2iXKbuFb7Jf"
+    },
+    {
+     "ts": "2026-10-18T13:20:30+03:00",
+     "side": "buy",
+     "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+     "usd": 114.0,
+     "sig": "3dUNWjJGde93iu6BW9t2TrpeCMwJfPtyQh3GLZWxPoMHWq426kbtkRHWi6FZ31ph3oUusvHRvjqi8hapwcmwA9kY"
+    },
+    {
+     "ts": "2026-10-18T13:14:09+03:00",
+     "side": "sell",
+     "mint": "DNTCnZCmfvcj57ZTC8pVnYsTCehi4xuF4ya6Jk4Qpump",
+     "usd": 709.3926929999998,
+     "sig": "2ZF6Dn1D7YJPToyHbZ2uoj3eYegvQnE1xfXRD5N4DMT6D2gnZFx8BK2vo2sE8RSg7q173M4AF98fQBLU7iSZySuT"
+    },
+    {
+     "ts": "2026-10-18T12:59:03+03:00",
+     "side": "buy",
+     "mint": "DNTCnZCmfvcj57ZTC8pVnYsTCehi4xuF4ya6Jk4Qpump",
+     "usd": 786.99999989608,
+     "sig": "43JgpdiPYG2iydCQ9SEbTUpvdiqSDFBFHqJ1vPqhYqGyHpqdBWRWoDyuYYpwSufm4gRfWrtDtd5FQ1vipdhYPGca"
+    },
+    {
+     "ts": "2026-10-18T11:03:26+03:00",
+     "side": "sell",
+     "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+     "usd": 2749.945114000002,
+     "sig": "3G7gfKLQJpihkubx99EN9yZcBx9sZZngM4JNHvsdsw56vCHYQrXLYbmKEMAD8gYuSsFkSVjNN2622Fe43Qjsm3SG"
+    },
+    {
+     "ts": "2026-10-18T11:02:16+03:00",
+     "side": "sell",
+     "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+     "usd": 1647.1110250000002,
+     "sig": "4CicsiYtaVJRysNvgL44MGtsgX2t5TzcimjqxtjRAQ9pWNPD6BDpKJcwFTyr2v9Hismr8nvcnCbYUSLPw7m7yUEk"
+    },
+    {
+     "ts": "2026-10-18T10:59:01+03:00",
+     "side": "sell",
+     "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+     "usd": 983.3649130000013,
+     "sig": "3wNpJBMnQxWYMCjU1aeJCjJh8gPmNxyhmLCYBtJGWgVBJ8N11us3GR6yejhy26N3PvoUrkdTfVoMdMW9VB27FEGZ"
+    }
+   ],
+   "open_positions_note": "13 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 0.06176725
+  },
+  {
+   "address": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+   "chain": "solana",
+   "label": "MuDo9453",
+   "sources": [
+    "fomo-api solana board"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 93729,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "fomo-api realized (FIFO), kapsam %78",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": 453,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792321435,
+   "last_trade_ist": "2026-10-18T14:03:55+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 2933,
+   "typical_position_note": "hacim/işlem (30d penceresi, fomo-api; ort. işlem boyutu)",
+   "open_positions": [
+    {
+     "mint": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
+     "symbol": "XSTOK",
+     "amount": 20000.0,
+     "price": 0.0001516,
+     "value_usd": 3.032,
+     "liq": 33841.41
+    },
+    {
+     "mint": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+     "symbol": "APE",
+     "amount": 9.31499098,
+     "price": 0.1428,
+     "value_usd": 1.330180711944,
+     "liq": 53415.97
+    },
+    {
+     "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+     "symbol": "ZEC",
+     "amount": 0.00085548,
+     "price": 1126.85,
+     "value_usd": 0.9639976379999999,
+     "liq": 3947685.56
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "30g realized +$93.7k, 453 işlem, hacim $1.33M (getiri ≈ %10: düşük marj ama tutarlı). Kapsam %78. Büyük pozisyonlar ($3k+) → kopyada slipaj farkı.",
+   "risk_flags": [
+    "büyük pozisyon",
+    "kapsam %78"
+   ],
+   "swaps_3h_verified": 2,
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T14:03:55+03:00",
+     "side": "buy",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 3000.0,
+     "sig": "397bbAnQ6HrXY2op1UYuXtispFwdgcU8X4DDttzKtPjymAZxdKZV2xG9t8YVci5LCREdpJnGNTm8LLnMpKdz89L"
+    },
+    {
+     "ts": "2026-10-18T13:53:21+03:00",
+     "side": "sell",
+     "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+     "usd": 1555.4322479999973,
+     "sig": "btCxCKEU97XqRmVNGC2oFoJCUWPckhe88YmJKVd3LrJcUS3XCDC1fKrLoQFWcTjFQVewAURSGxXsVozzPAvC3YF"
+    },
+    {
+     "ts": "2026-10-18T13:50:09+03:00",
+     "side": "buy",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 5000.0,
+     "sig": "SDV272rZJeNZmGijst3Cgtp1bJympvnoUPMq2DJRcsCg2q7wvaMKyGxUVwJMVpSv5rF1dSFXAaLYodfemypG7Zg"
+    },
+    {
+     "ts": "2026-10-18T13:49:12+03:00",
+     "side": "buy",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 5000.0,
+     "sig": "33ZQnG6BDnLn7dth7JWKDTwnHSa1nvw9rzonBF5eXb6bPhukPj8ZNknVdEg2SSPgRTD4J6AKin1cq8ie16spJ439"
+    },
+    {
+     "ts": "2026-10-18T13:16:07+03:00",
+     "side": "buy",
+     "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+     "usd": 500.0,
+     "sig": "59wMh8awrWYzeXZ2LsrDF1szwFctMsuP7AUaxvegyb6cns9eenobZ1np596F3e9WKLTQtwttpAGi42uvpMVHS8Ye"
+    },
+    {
+     "ts": "2026-10-18T12:51:22+03:00",
+     "side": "buy",
+     "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+     "usd": 1000.0,
+     "sig": "51isRoDfJM1ELVqNMuZRaHEwsTbpGY1CuRoaroDDU8s1r8XNDv72f215FnH1wseFRBwW3cQFsEKAFuFQXLLgDvWE"
+    },
+    {
+     "ts": "2026-10-18T12:50:36+03:00",
+     "side": "buy",
+     "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+     "usd": 4000.0,
+     "sig": "4GcqA6ijPoUPnWUT3zWYJfrBagL8dseEniPV2M6XEoghz1V2pxnLoGBjYxqDDV292FQobdE3QsrK336TgLN8vKo3"
+    },
+    {
+     "ts": "2026-10-18T12:50:17+03:00",
+     "side": "sell",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 1150.3067449999944,
+     "sig": "5cQf4b5o3rhMZf4AaPdrbQX8eYtAdA4UjVK6F6wxpH2TF51siLKjQqWm5Td46oU6kwS2mwBHwQfzX6iA3vENEkrn"
+    },
+    {
+     "ts": "2026-10-18T12:32:49+03:00",
+     "side": "buy",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 1500.0,
+     "sig": "4QYZ7189w1Whjs77YpPf316hA9EtRpyTfjquKKAeuDbdEhu7tQudpm2ctYE6Z4tCLZzgj31p6n6RjdYe6P1Skyq4"
+    },
+    {
+     "ts": "2026-10-18T12:01:29+03:00",
+     "side": "sell",
+     "mint": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
+     "usd": 2011.337904,
+     "sig": "4DteAVwKn2iV85bYrZagtkFwghkzGuDYEtUR7SjdsSfy9ZfrV9ue9RFzc1uRbsKxD5jdgDpsJ52ryZtSy7ubr1FS"
+    },
+    {
+     "ts": "2026-10-18T11:48:05+03:00",
+     "side": "sell",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 1176.5922300000093,
+     "sig": "3M8C6GJqT2FRJRdunU3bqTT51qkffKjmoZWW9E17AyQp2uAitDcrxMxkwi1E4pLef4kvRjDJa2qmCk4Q43xsT4mQ"
+    },
+    {
+     "ts": "2026-10-18T11:07:33+03:00",
+     "side": "buy",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 3000.0,
+     "sig": "2tSHY4yMcPgPk5qnks5UzsEJbnHHU46YLgj2ACxHnvArbzbfWARxvFWaDFeZ1WKtsTHMiRix8BKxzdQzgjx7mjVa"
+    }
+   ],
+   "open_positions_note": "4 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 2.178160093
+  },
+  {
+   "address": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+   "chain": "solana",
+   "label": "Mr. Frog",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": 2997,
+   "pnl_30d_usd": 107554,
+   "pnl_7d_basis": "kolscan: 29 SOL (≈ güncel SOL fiyatıyla)",
+   "pnl_30d_basis": "kolscan: 1042 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 87.1,
+   "win_loss": "30g: 1681K/248Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": 142,
+   "trades_30d": 1929,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792305700,
+   "last_trade_ist": "2026-10-18T09:41:40+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 310.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 4 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "SV151D5pjygAKA8aJJcKzm4wFnRX5G92Fye94jQJk7g",
+     "symbol": "SV151",
+     "amount": 0.072426,
+     "price": 0.2973,
+     "value_usd": 0.021532249800000004,
+     "liq": 47543.98
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "kolscan 30g yüksek kazanma oranı (%87, 1681K/248Z) ve pozitif 7g/30g. Kolscan = X'te tanınan KOL listesi: PnL'i kaynağın kendi beyanı, doğrulanmadı; KOL cüzdanı kopyalayanlara karşı exit-liquidity riski.",
+   "risk_flags": [
+    "KOL cüzdanı",
+    "doğrulanmamış PnL"
+   ],
+   "swaps_3h_verified": 8,
+   "twitter": "https://x.com/TheMisterFrog",
+   "recent_swaps": [],
+   "open_positions_note": "161 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 1056.516912367
+  },
+  {
+   "address": "G6fUXjMKPJzCY1rveAE6Qm7wy5U3vZgKDJmN1VPAdiZC",
+   "chain": "solana",
+   "label": "clukz",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 49179,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "kolscan: 476 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 47.3,
+   "win_loss": "30g: 155K/173Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": null,
+   "trades_30d": 328,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792305812,
+   "last_trade_ist": "2026-10-18T09:43:32+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 1294.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 2 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "ANLEpx1hMMGJ2vHwENrVhH1gkysDNwf5p4uNKJxGpump",
+     "symbol": "RIPTRUMP",
+     "amount": 37902749.86792,
+     "price": 0.0001713,
+     "value_usd": 6492.741052374695,
+     "liq": 38839.6
+    },
+    {
+     "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+     "symbol": "BAGSPAY",
+     "amount": 127.807045375,
+     "price": 0.0009565,
+     "value_usd": 0.1222474389011875,
+     "liq": 142963.85
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "30g +476 SOL, 155K/173Z (%47 kazanma ama kazançlar büyük). Son işlemler aynı tokenda tekrarlı ~$540 satış (kademeli çıkış). KOL cüzdanı.",
+   "risk_flags": [
+    "KOL cüzdanı",
+    "doğrulanmamış PnL"
+   ],
+   "swaps_3h_verified": 8,
+   "twitter": "https://x.com/clukzSOL",
+   "recent_swaps": [],
+   "open_positions_note": "571 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 292.522362386
+  },
+  {
+   "address": "Dvbv5TdAyPpJk16X9mUxWFVicYtCUxTLhuof8TGuUaRv",
+   "chain": "solana",
+   "label": "CookDoc",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": 11583,
+   "pnl_30d_usd": 23344,
+   "pnl_7d_basis": "kolscan: 112 SOL (≈ güncel SOL fiyatıyla)",
+   "pnl_30d_basis": "kolscan: 226 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 59.1,
+   "win_loss": "30g: 39K/27Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": 22,
+   "trades_30d": 66,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792306837,
+   "last_trade_ist": "2026-10-18T10:00:37+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 207.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 1 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "zinc155BS4mSPk8GXQj4R5hkVDQXcW253pTYq5SGyfi",
+     "symbol": "ZINC",
+     "amount": 0.002449197,
+     "price": 0.1525,
+     "value_usd": 0.0003735025425,
+     "liq": 21834.99
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "7g +112 SOL (15K/7Z), 30g +226 SOL (39K/27Z): düşük örneklem (<100 işlem) ama istikrarlı. KOL cüzdanı.",
+   "risk_flags": [
+    "düşük örneklem",
+    "KOL cüzdanı"
+   ],
+   "swaps_3h_verified": 4,
+   "twitter": "https://x.com/CookDoc1993",
+   "recent_swaps": [],
+   "open_positions_note": "7 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 319.852777383
+  },
+  {
+   "address": "2T5NgDDidkvhJQg8AHDi74uCFwgp25pYFMRZXBaCUNBH",
+   "chain": "solana",
+   "label": "Idontpaytaxes",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 23902,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "kolscan: 231 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 58.8,
+   "win_loss": "30g: 378K/265Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": null,
+   "trades_30d": 643,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792307608,
+   "last_trade_ist": "2026-10-18T10:13:28+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 2.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 2 işlem (türetilmiş)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "30g +231 SOL, 378K/265Z (%59), 7g listede yok (null). Ancak son 3 saatteki ALIMLAR yalnızca ~$2 (mikro/toz): kopyalanacak anlamlı sinyal yok → kopya kapalı, izleme.",
+   "risk_flags": [
+    "mikro alım (~$2)",
+    "KOL cüzdanı",
+    "7g verisi yok"
+   ],
+   "swaps_3h_verified": 4,
+   "twitter": "https://x.com/untaxxable",
+   "recent_swaps": [],
+   "open_positions_note": "2879 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 1765.543055847
+  },
+  {
+   "address": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+   "chain": "solana",
+   "label": "Putrick",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": 6110,
+   "pnl_30d_usd": 48817,
+   "pnl_7d_basis": "kolscan: 59 SOL (≈ güncel SOL fiyatıyla)",
+   "pnl_30d_basis": "kolscan: 473 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 33.1,
+   "win_loss": "30g: 664K/1340Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": 416,
+   "trades_30d": 2004,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792323886,
+   "last_trade_ist": "2026-10-18T14:44:46+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 64.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 2 işlem (türetilmiş)",
+   "open_positions": [],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "7g +59 SOL, 30g +473 SOL ama kazanma oranı düşük (%33; 664K/1340Z): az sayıda büyük kazanç taşıyor, drawdown riski yüksek. Çok yüksek frekans.",
+   "risk_flags": [
+    "düşük win-rate",
+    "yüksek frekans",
+    "KOL cüzdanı"
+   ],
+   "swaps_3h_verified": 8,
+   "twitter": "https://x.com/Putrickk",
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T14:44:46+03:00",
+     "side": "sell",
+     "mint": "GShJ8XT5xxCMMY9rGLybDRY1S3Vr47GF2D2mjvj5pump",
+     "usd": 97.159575669,
+     "sig": "C7nXhZDBmRKo7knhpmtqkgveE6U5Qg526e3dwEw6A8LrtnQJEYB3U4aV9romY4vHAWNbcwgV4tjHe5iteiPuTec"
+    },
+    {
+     "ts": "2026-10-18T14:44:40+03:00",
+     "side": "buy",
+     "mint": "GShJ8XT5xxCMMY9rGLybDRY1S3Vr47GF2D2mjvj5pump",
+     "usd": 109.08562662710001,
+     "sig": "3GhgKazybi7B2XPCNMvzTu5hUvAasSrwVA7VWUfJMvyVMJBBykVPKfVeGrfiRpee9gRJcnxeKoHVHwG9hNMGG7d6"
+    },
+    {
+     "ts": "2026-10-18T14:32:06+03:00",
+     "side": "sell",
+     "mint": "33o4Lhq89uJoRGCAFco48XjeFhqbWJoi9KHzxrnwpump",
+     "usd": 114.20712934768,
+     "sig": "acvo8srEsiqHheVWhQYX75zBfgofjS3mkP4Npb1veR1vDVFmQthyN4GBUUuFEdTXCTH71xixLRurm96avAgfBSx"
+    },
+    {
+     "ts": "2026-10-18T14:32:00+03:00",
+     "side": "buy",
+     "mint": "33o4Lhq89uJoRGCAFco48XjeFhqbWJoi9KHzxrnwpump",
+     "usd": 122.5806523452,
+     "sig": "5jHG3P1TDS8Rnb84sq4zKtAyKmAKLStTJynf5cLe3BSvyLpJ4oYL1ME6BrmEfCGBKX7S21EcSUkbWcLrYnenu6ed"
+    },
+    {
+     "ts": "2026-10-18T14:25:10+03:00",
+     "side": "buy",
+     "mint": "2g3M2xF9ADS9J7Tm2Y7aSKsWQ85zYu4DJm8M4riKpump",
+     "usd": 132.84145394656,
+     "sig": "2y7RMokjRKgyCQcJS72qv1VW1zw2gHMuTaFrrJCxacZDcUaS3EeqN47Qy5wXhnnm4RAQpPabtjYmdhV5FELtVMj1"
+    },
+    {
+     "ts": "2026-10-18T14:18:36+03:00",
+     "side": "sell",
+     "mint": "4Mbh6kduBskobTwA6px792kJxnnirBk9YGZqRtDZ4xCC",
+     "usd": 142.96465598784002,
+     "sig": "3SJ5uG9JJcfbfYMwhCavD8V6UtnNVvNiMQ6YoHm81MBqhcL9fScYZai7LjmopCBzK6ARzMn8cTANU6s8EBcUDT9g"
+    },
+    {
+     "ts": "2026-10-18T14:18:16+03:00",
+     "side": "buy",
+     "mint": "4Mbh6kduBskobTwA6px792kJxnnirBk9YGZqRtDZ4xCC",
+     "usd": 10.404564712960001,
+     "sig": "4VibskxQ1WiMsiVvx7EoTPi37uNe2ZxM5RpM8KHsYZcSF8PFzNwsbfQPiDHZhidLRtkCA9d5KxyKprJAdGkkwXcY"
+    },
+    {
+     "ts": "2026-10-18T14:18:04+03:00",
+     "side": "buy",
+     "mint": "4Mbh6kduBskobTwA6px792kJxnnirBk9YGZqRtDZ4xCC",
+     "usd": 130.70871591376002,
+     "sig": "3DWWabkBTMy1Q38rCXhuhpB1xLJUZbWD8vpYUD85tMGN5KjCWxnF5uuR1vRJ7WFhNCj5HfZd83mtyfzBZse1QWtk"
+    },
+    {
+     "ts": "2026-10-18T14:17:45+03:00",
+     "side": "sell",
+     "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+     "usd": 136.85039856112,
+     "sig": "2WaA5gkehY6LET5wVngeTCrBGXns2dASpPNFfERgwyhiTbU4n6nPHDxjba4Qdc1uvUiTXD7SVC4qG9Bt24kn3Fpf"
+    },
+    {
+     "ts": "2026-10-18T14:15:34+03:00",
+     "side": "buy",
+     "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+     "usd": 10.420951290500001,
+     "sig": "2TJEBwavX5sVNufmLrP7ycBBRE6MkWwWBrSn9qsH6ynVcyRuFQsw9t8WCpJZrui9SrCDYA6mqWZ4voUjf2DP86zx"
+    },
+    {
+     "ts": "2026-10-18T14:14:21+03:00",
+     "side": "buy",
+     "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+     "usd": 162.2068744258,
+     "sig": "oWo7RBh7fd4YL8vgAGsuFh8jRCibZLi6sqpuDfZZaRVGBV4R44f5yz7NeFwa4aYkWKwCYxumtbcqM7NJvFDwSu5"
+    },
+    {
+     "ts": "2026-10-18T11:13:25+03:00",
+     "side": "sell",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 469.4302926420801,
+     "sig": "GXSHswpFVuKv7X6AV3WSHDjGn5QpgzSnWpZEeZVoDP2YHirt73Nm88MAdzEW8e9gKyhYqia4FpR5oFPrKmEFR69"
+    },
+    {
+     "ts": "2026-10-18T11:13:24+03:00",
+     "side": "sell",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 121.42516689996002,
+     "sig": "28htKSmb1BwQHd1jGE2YwLAbem2ptEZZijiX7xPyfMVGkFrBB7XREoWLLqcoSW4diJ7WwqfoPoqfxMDK1f8a65ts"
+    },
+    {
+     "ts": "2026-10-18T11:13:23+03:00",
+     "side": "sell",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 148.28768276014,
+     "sig": "42iJ23fRteXkaE1UKZwTCFSFRH6qWjkzq8YAUyRnULPp6bpprcgTwsq74AyVHHTHwGAWhaBy4639dVENXWjxW3Fc"
+    },
+    {
+     "ts": "2026-10-18T11:12:43+03:00",
+     "side": "sell",
+     "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+     "usd": 228.50592435748,
+     "sig": "2WqyjmzjLFRyKCKhx9dAgk4QtD8e1EJSG4WPqoyvwJ8zWDt6KkVW43XnVGTQ6U6z59Vtq3YEqiyWM8GiH9KmKfbt"
+    }
+   ],
+   "open_positions_note": "1042 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 267.871654976
+  },
+  {
+   "address": "8twsWnstwn2MvWiZNaLBYzQjaeo16mNmn4y29zYWwQuS",
+   "chain": "solana",
+   "label": "FitGiantSnail",
+   "sources": [
+    "fomo-api solana board"
+   ],
+   "pnl_7d_usd": 18787,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": "fomo-api realized (FIFO), kapsam %99",
+   "pnl_30d_basis": null,
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": 4,
+   "trades_30d": null,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792317064,
+   "last_trade_ist": "2026-10-18T12:51:04+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 6627,
+   "typical_position_note": "hacim/işlem (7d penceresi, fomo-api; ort. işlem boyutu)",
+   "open_positions": [
+    {
+     "mint": "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We",
+     "symbol": "STNK",
+     "amount": 10031.350272869,
+     "price": 5.32,
+     "value_usd": 53366.78345166308,
+     "liq": 301393.1
+    },
+    {
+     "mint": "SV151D5pjygAKA8aJJcKzm4wFnRX5G92Fye94jQJk7g",
+     "symbol": "SV151",
+     "amount": 54.951714,
+     "price": 0.2973,
+     "value_usd": 16.3371445722,
+     "liq": 47543.98
+    },
+    {
+     "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+     "symbol": "ZEC",
+     "amount": 0.00292135,
+     "price": 1123.25,
+     "value_usd": 3.2814063875,
+     "liq": 3937261.21
+    },
+    {
+     "mint": "DVwBdvSEP7zBehNBjE19deWpgmULSC4UJ62YGqTg3fsn",
+     "symbol": "RTP",
+     "amount": 38790.732573,
+     "price": 7.509e-06,
+     "value_usd": 0.291279610890657,
+     "liq": 7422.77
+    },
+    {
+     "mint": "AmSLebuF5rPu1GeWswy9TV5baQtQzKVsGGrK5raEbunt",
+     "symbol": "Squeeze",
+     "amount": 141.0,
+     "price": 2.895e-05,
+     "value_usd": 0.00408195,
+     "liq": 14688.92
+    },
+    {
+     "mint": "Gw5uPEK6LUBxG3tQpJa3SakqaFhYK2NWEmudSa99pump",
+     "symbol": "nsf",
+     "amount": 2e-05,
+     "price": 0.0001004,
+     "value_usd": 2.008e-09,
+     "liq": 28629.31
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "24g/7g realized +$18.8k yalnızca 4 işlem (getiri %256): çok küçük örneklem, tek şanslı işlem olabilir. Pozisyonlar büyük ($1.7k+). Dikkatle izle.",
+   "risk_flags": [
+    "4 işlem – örneklem yok",
+    "büyük pozisyon"
+   ],
+   "swaps_3h_verified": 5,
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T12:51:04+03:00",
+     "side": "sell",
+     "mint": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
+     "usd": 1404.156676,
+     "sig": "2wxXJyrYV7xUg6qebFbaz9DuW1f3jp8fU5WhTA7VgLBQr76vTQcRtaeEBqoTh3fC5yq6BFUUTt8mHX7ocb6i6Etq"
+    },
+    {
+     "ts": "2026-10-18T12:50:58+03:00",
+     "side": "sell",
+     "mint": "7LA4wwjoXU4hAdwX1eT5ouuSsMrHq9wHQBfAyPfJK1eQ",
+     "usd": 2498.078634,
+     "sig": "2YGKSvumpufrDamnZCDiAinWTPkD3dhiMbtxUJ86A1vS3K4v7NhksKESd7FAUFzVmU5jtzS1Jt9sCeD9cRQPBaW8"
+    },
+    {
+     "ts": "2026-10-18T12:41:39+03:00",
+     "side": "sell",
+     "mint": "7LA4wwjoXU4hAdwX1eT5ouuSsMrHq9wHQBfAyPfJK1eQ",
+     "usd": 2934.0596969999997,
+     "sig": "3XSGiGJeZpFKX6q76d7XWv9zerVUqgGRaD2uirPLwUyMz4zJBTvRX9SsGP7NNuYxSgWJUqxMnZmfKdDbdJfnpcXc"
+    },
+    {
+     "ts": "2026-10-18T12:41:26+03:00",
+     "side": "sell",
+     "mint": "CFNRDaxFcvRwRSNnA5cHrCCr6AHhk9dNkHWpRUjNupFL",
+     "usd": 3884.129645,
+     "sig": "qeqfwYxWsRqdaupPijFxQcUbVzQ66KYkhBohBptPBmNBmn4BEwEokYVDmaUFUMbdm8HxwneeEFB2DZ1aj3YMSAc"
+    }
+   ],
+   "open_positions_note": "33 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 3.369918403
+  },
+  {
+   "address": "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx",
+   "chain": "solana",
+   "label": "bystevenr",
+   "sources": [
+    "fomo-api parity board"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 497156,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "FOMO raporu (mark-to-market, doğrulanmamış)",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": 510,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792308781,
+   "last_trade_ist": "2026-10-18T10:33:01+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 500.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 1 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+     "symbol": "ORE",
+     "amount": 1140.55451847673,
+     "price": 109.28,
+     "value_usd": 124639.79777913705,
+     "liq": 265076.96
+    },
+    {
+     "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+     "symbol": "ZEC",
+     "amount": 0.0015501,
+     "price": 1123.25,
+     "value_usd": 1.741149825,
+     "liq": 3937261.21
+    },
+    {
+     "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+     "symbol": "Fartcoin ",
+     "amount": 9.320307,
+     "price": 0.1468,
+     "value_usd": 1.3682210676000002,
+     "liq": 7539605.74
+    },
+    {
+     "mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+     "symbol": "WETH",
+     "amount": 0.00053956,
+     "price": 2414.41,
+     "value_usd": 1.3027190596,
+     "liq": 7180932.07
+    },
+    {
+     "mint": "WLDTE73PPdfFFjhpBz8Yuhvx5N45gvgEgyMXqwa3rFn",
+     "symbol": "WLD",
+     "amount": 2.26568051,
+     "price": 0.5022,
+     "value_usd": 1.137824752122,
+     "liq": 54713.33
+    },
+    {
+     "mint": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+     "symbol": "ACT",
+     "amount": 67.26422,
+     "price": 0.008912,
+     "value_usd": 0.5994587286399999,
+     "liq": 1350858.75
+    },
+    {
+     "mint": "7ga6rtE9qSb3wdEiDCpTu2kHqoGVfT52jD8ign1rYTvx",
+     "symbol": "xHYPE",
+     "amount": 0.174354,
+     "price": 1.56,
+     "value_usd": 0.27199224,
+     "liq": 98802.64
+    },
+    {
+     "mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+     "symbol": "HYPE",
+     "amount": 0.000345154,
+     "price": 78.82,
+     "value_usd": 0.02720503828,
+     "liq": 733479.57
+    }
+   ],
+   "verdict": "accepted",
+   "copy_enabled": true,
+   "risk_note": "FOMO 30g +$497k raporluyor ama fomo-api zincir hesabı yalnızca +$38k (13x fark; realized +$30k, 510 işlem). Gerçek rakam olarak hesaplananı kullan; raporlanan şişirilmiş olabilir.",
+   "risk_flags": [
+    "raporlanan≠hesaplanan (13x)"
+   ],
+   "swaps_3h_verified": 2,
+   "fomo_api_computed": {
+    "window": "30d",
+    "reported_pnl_usd": 497156,
+    "computed_total_usd": 38007,
+    "realized_usd": 30463,
+    "unrealized_usd": 7544,
+    "trades": 510,
+    "volume_usd": 372938
+   },
+   "fomo_lifetime": {
+    "all_time_pnl_usd": 398650,
+    "lifetime_volume_usd": 7545833,
+    "num_trades": 2511,
+    "followers": 41049
+   },
+   "recent_swaps": [],
+   "open_positions_note": "31 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 0.0
+  },
+  {
+   "address": "AGdtsMmphhymH5wYW3dWKSkAxpLYRrNDCTFAfuq8ii9v",
+   "chain": "solana",
+   "label": "ExactTallTakin",
+   "sources": [
+    "fomo-api parity board"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 781966,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "FOMO raporu (mark-to-market, doğrulanmamış)",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": null,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792305340,
+   "last_trade_ist": "2026-10-18T09:35:40+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 1500.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 4 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "8vzXjdPBsdP9asduMFDydRg9jZ7rXJXrHWMowqB47S4k",
+     "symbol": "UNKNOWN",
+     "amount": 10733333.275144,
+     "price": 3.088e-05,
+     "value_usd": 331.44533153644676,
+     "liq": 26414.28
+    },
+    {
+     "mint": "AZrbvjJ5mMMucsQmTKzeXADXMyV3Xtv4sScGbNg4txrj",
+     "symbol": "UNKNOWN",
+     "amount": 7917906.259882,
+     "price": 3.088e-05,
+     "value_usd": 244.50494530515618,
+     "liq": 26317.73
+    },
+    {
+     "mint": "8xetaFWwjLT5TVZc3hWudy5sW28Tn4EpfyzQf8ZvpSxu",
+     "symbol": "UNKNOWN",
+     "amount": 10368305.472197,
+     "price": 1.224e-05,
+     "value_usd": 126.90805897969128,
+     "liq": 16334.2
+    },
+    {
+     "mint": "6SWgjmuTyPAcYYU77Mzf1gE6QA7ZcZsbsfiThz2cW1VF",
+     "symbol": "MARCO",
+     "amount": 7.567174964,
+     "price": 0.0002341,
+     "value_usd": 0.0017714756590724,
+     "liq": 6889.67
+    }
+   ],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "FOMO 30g +$782k raporluyor; yaşam boyu hacim yalnızca $1.73M ve all-time PnL = 30g PnL (tüm kazanç son 30 günde?). Zincir-hesaplı doğrulama YOK (computed=null). Şişirilmiş/doğrulanamaz → kopyalama kapalı.",
+   "risk_flags": [
+    "doğrulanamaz PnL",
+    "PnL/hacim oranı olağandışı"
+   ],
+   "swaps_3h_verified": 8,
+   "fomo_lifetime": {
+    "all_time_pnl_usd": 781966,
+    "lifetime_volume_usd": 1729694,
+    "num_trades": 409,
+    "followers": 100690
+   },
+   "recent_swaps": [],
+   "open_positions_note": "127 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 0.01296523
+  },
+  {
+   "address": "CpKuhcFHogvrq7Fx3enu57xTRkh1WyzER1TVVBimC5mo",
+   "chain": "solana",
+   "label": "SolSwizzle",
+   "sources": [
+    "fomo-api solana board"
+   ],
+   "pnl_7d_usd": 8904,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": "yalnızca 24g değeri (7g listede yok) — fomo-api realized, 5 işlem",
+   "pnl_30d_basis": null,
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": 5,
+   "trades_30d": null,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792305016,
+   "last_trade_ist": "2026-10-18T09:30:16+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 2876,
+   "typical_position_note": "hacim/işlem (24h penceresi, fomo-api; ort. işlem boyutu)",
+   "open_positions": [
+    {
+     "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+     "symbol": "USELESS",
+     "amount": 45.541724,
+     "price": 0.1466,
+     "value_usd": 6.6764167384,
+     "liq": 3929942.76
+    },
+    {
+     "mint": "4oaV94McVveRosSgdZTn3jkMpr1ge7SQZjwBZ7xG6oA7",
+     "symbol": "SNIFF",
+     "amount": 50000.0,
+     "price": 1.874e-05,
+     "value_usd": 0.937,
+     "liq": 14107.25
+    }
+   ],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Yalnızca 24g listesinde (+$8.9k, 5 işlem). 7g/30g verisi yok. Son 3 saatte yalnızca SATIŞ görüldü (aynı tokende ~$4.8k x2) — kopyalanacak alım yok. Örneklem yetersiz.",
+   "risk_flags": [
+    "örneklem yetersiz"
+   ],
+   "swaps_3h_verified": 2,
+   "recent_swaps": [],
+   "open_positions_note": "447 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 5.842215585
+  },
+  {
+   "address": "7Js5gmq57y9jG2sseKrAeJt3vbncSWSFFHDEsyJDnyVm",
+   "chain": "solana",
+   "label": "Yami",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": 9128,
+   "pnl_30d_usd": 38733,
+   "pnl_7d_basis": "kolscan: 88 SOL (≈ güncel SOL fiyatıyla)",
+   "pnl_30d_basis": "kolscan: 375 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 27.4,
+   "win_loss": "30g: 1191K/3162Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": 975,
+   "trades_30d": 4353,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792324011,
+   "last_trade_ist": "2026-10-18T14:46:51+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 36.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 4 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "Bx3juZJ3bQZMPpWsBDR2oGqy9drKAbxTEx53dQfLb8bD",
+     "symbol": "onboard",
+     "amount": 14243.464548,
+     "price": 9.075e-05,
+     "value_usd": 1.2925944077309999,
+     "liq": 44479.13
+    },
+    {
+     "mint": "ESm9YUL2KtbYLuVCidwmAE1RVgxp2rpDKu6L9c3FyoMU",
+     "symbol": "Gigabite",
+     "amount": 18734.03166,
+     "price": 6.224e-05,
+     "value_usd": 1.1660061305184,
+     "liq": 30505.45
+    },
+    {
+     "mint": "9rPtPtLAFtowxNRZn1n1dJhGMrzqAurWFFn7C9ZWab9Z",
+     "symbol": "BUBBLE",
+     "amount": 1125.583068,
+     "price": 0.0009197,
+     "value_usd": 1.0351987476395998,
+     "liq": 450703.39
+    },
+    {
+     "mint": "VVV4UdRywr7SLafPHzqXwRCw7myXkmgCtitXUvj8g8c",
+     "symbol": "VVV",
+     "amount": 0.00510966,
+     "price": 22.41,
+     "value_usd": 0.1145074806,
+     "liq": 106569.62
+    }
+   ],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "30g +375 SOL fakat %27 kazanma ve 4300+ işlem, medyan işlem ~$40: bot/yüksek frekans benzeri, kopyalanamaz (gecikme + ücret yer). İzleme.",
+   "risk_flags": [
+    "bot benzeri",
+    "mikro pozisyon"
+   ],
+   "swaps_3h_verified": 8,
+   "twitter": "https://x.com/YamiPNL",
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T14:46:51+03:00",
+     "side": "buy",
+     "mint": "73PTbCykk1EFCqFYKum4XNMDgsnDDsWJCyWuqpyfpump",
+     "usd": 44.5406282435,
+     "sig": "5RAKnFWMriSMZxygqWdqxGQ9eSsapdxUVqq9H5oTBzkzE5oPR1oskEdNg9eskDfZjpSoJvFzV2y5Gw4HnB8szJn5"
+    },
+    {
+     "ts": "2026-10-18T14:46:51+03:00",
+     "side": "buy",
+     "mint": "73PTbCykk1EFCqFYKum4XNMDgsnDDsWJCyWuqpyfpump",
+     "usd": 44.5406282435,
+     "sig": "5qBG76cPjXYx2oZ9KHRaurAMVEUxkbvnE5ZWXMpSFu5ZoV4yRVkRXvPc15iNmz3afTbDg2PiKZDGj9yJR98vp7mq"
+    },
+    {
+     "ts": "2026-10-18T14:46:30+03:00",
+     "side": "sell",
+     "mint": "DjSRqZgUqBoVPPbYyTwDcgUWH5DnRS2jZkVWKrb3pump",
+     "usd": 88.78134177640001,
+     "sig": "2Ez1PCGUShjMS461QRcdoJM8zsL8cgdAuMyu7mo4kwrZ451iHN9d1z4xA8uNDBhNTxehBgnynKMZZ5kDotMnbY6k"
+    },
+    {
+     "ts": "2026-10-18T14:46:10+03:00",
+     "side": "sell",
+     "mint": "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump",
+     "usd": 116.45398221770002,
+     "sig": "3tAJbig3n2Rfnyjz9KchpiWDrJno6PoibdmhNLvgQysqNVZWXwW4QhwSEiTxMg5C1wt3FN2qmaVngw5rz5ENLHJD"
+    },
+    {
+     "ts": "2026-10-18T14:44:21+03:00",
+     "side": "sell",
+     "mint": "73PTbCykk1EFCqFYKum4XNMDgsnDDsWJCyWuqpyfpump",
+     "usd": 46.4214869935,
+     "sig": "LM9bmUnN2RZ3kE8WszDJNNmQ4KKo6crekrtGJwvaAWV981ujN1FQnTptyYVdvV7KLJHdgZuEGq1Ain6QrMeSoEi"
+    },
+    {
+     "ts": "2026-10-18T14:41:20+03:00",
+     "side": "buy",
+     "mint": "72bBC6JoWu45rMuVrLz8XEybTy4vxQn1ADoAVuYupump",
+     "usd": 64.69203836999999,
+     "sig": "5AdcwW25pK2JsYnQMCuncydFfC2A5UgK9PEhqKWYEVvw21h3MRknJFSWNFfK7Qw1ikfJufB1gDWNFgDY9DZswud1"
+    },
+    {
+     "ts": "2026-10-18T14:39:50+03:00",
+     "side": "buy",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 103.91759483840002,
+     "sig": "2YSeraNuQYotCrefxmsq3Kmd1s4NAyu8d4Zg69h5VhafLREcpswFbKdXqVcjzZRBBSxmVHxzFNpoz97u5HdbVs18"
+    },
+    {
+     "ts": "2026-10-18T14:39:40+03:00",
+     "side": "buy",
+     "mint": "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump",
+     "usd": 145.37493988072,
+     "sig": "5Q9JhKSMJMvnjrmy5wfN2TmZ1JiwYh8V9mW5xZTPgzRrmhCiZToCV4arKqz3WvNrPm6Cac2A7KjMugU4dN5zQshG"
+    },
+    {
+     "ts": "2026-10-18T14:39:10+03:00",
+     "side": "sell",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 121.06181439904,
+     "sig": "3tAnuYmWguzP9gXG6PfcnVJ3Pa1FbQ2ncsU1GchWKmy3AUoSUwjXpzSKpssW2TdDYhSBqdUF9PKJ2en5VR1oMLFr"
+    },
+    {
+     "ts": "2026-10-18T14:38:30+03:00",
+     "side": "sell",
+     "mint": "HswdVhkrQewudESiiQBZaPkPQDpnLoBjyoJnPXbipump",
+     "usd": 11.56776474032,
+     "sig": "3F6ftcyP5NX8A6SyELw9hiCwzUGgaRbGV8mFHeXjgYWKhGgosBgyzny74gcf8ivyCQFeU5v9hzHhqG7M2dSTnVdb"
+    },
+    {
+     "ts": "2026-10-18T14:37:40+03:00",
+     "side": "sell",
+     "mint": "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump",
+     "usd": 197.01538366944,
+     "sig": "5E9vAXrZiZEL3taYDEUCyCpkGr8inCi9CLtvyjUdSfapejhKDcG2TLnxdzDe8fL1pUqRHYQh4DwQPhM1pDz6oppk"
+    },
+    {
+     "ts": "2026-10-18T14:37:30+03:00",
+     "side": "buy",
+     "mint": "73PTbCykk1EFCqFYKum4XNMDgsnDDsWJCyWuqpyfpump",
+     "usd": 31.894989250800002,
+     "sig": "3HoMvG3LTPK9Q6eR6kcrLNMYZcqPS7RFYYegcbvau4GcVuBHRF7iMYUk2BMuqRHk7jUWrHf9rZPtDp6k8ZFVmy2C"
+    },
+    {
+     "ts": "2026-10-18T14:36:31+03:00",
+     "side": "sell",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "usd": 332.60494010032,
+     "sig": "TTpR6WYPqAUGZu76uDPCFq9RrmPqFpKnnb7Abe3wCUKEMRPFip1fj7cgZwBxeHkxpvoFmgTtaG3jsDb9KSucBpd"
+    },
+    {
+     "ts": "2026-10-18T14:36:31+03:00",
+     "side": "buy",
+     "mint": "DjSRqZgUqBoVPPbYyTwDcgUWH5DnRS2jZkVWKrb3pump",
+     "usd": 98.26015907344001,
+     "sig": "4JWxTNs4h6aGCL9cPz6gSh6f6SzyS2dpD29BuW2Ph7EXprHh8MFZZKULUyDDJQbNjSYWWRRiSQhb75UJga6bXvkk"
+    },
+    {
+     "ts": "2026-10-18T14:35:40+03:00",
+     "side": "buy",
+     "mint": "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump",
+     "usd": 160.68331072664,
+     "sig": "4oLHAQzZHdYbpEVESJHtAjaJ4ia67KiFKVUMg6EZKE3gTVzVHNsvHJseXoMjiRSGKZtwv4ieZn26oZodGYDLFwQX"
+    }
+   ],
+   "open_positions_note": "14 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 317.949167224
+  },
+  {
+   "address": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+   "chain": "solana",
+   "label": "ban",
+   "sources": [
+    "kolscan"
+   ],
+   "pnl_7d_usd": 26424,
+   "pnl_30d_usd": 94538,
+   "pnl_7d_basis": "kolscan: 256 SOL (≈ güncel SOL fiyatıyla)",
+   "pnl_30d_basis": "kolscan: 916 SOL (≈ güncel SOL fiyatıyla)",
+   "win_rate_pct": 40.9,
+   "win_loss": "30g: 1450K/2097Z (kolscan; işlem = K+Z, kapanmış pozisyon)",
+   "trades_7d": 852,
+   "trades_30d": 3547,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792324014,
+   "last_trade_ist": "2026-10-18T14:46:54+03:00",
+   "last_trade_source": "Solana RPC (ayrıştırılmış swap)",
+   "typical_position_usd": 45.0,
+   "typical_position_note": "medyan ALIŞ, son 3 saatteki 2 işlem (türetilmiş)",
+   "open_positions": [
+    {
+     "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+     "symbol": "ZEC",
+     "amount": 0.01117053,
+     "price": 1123.25,
+     "value_usd": 12.5472978225,
+     "liq": 3937261.21
+    },
+    {
+     "mint": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+     "symbol": "W",
+     "amount": 160.624354,
+     "price": 0.01324,
+     "value_usd": 2.1266664469600003,
+     "liq": 123867.94
+    },
+    {
+     "mint": "58QyXQ1UDgHh64EiTsCeevVM9cLPqBDNf3qZE6EdfUhZ",
+     "symbol": "FRONTIER",
+     "amount": 0.569915,
+     "price": 0.9386,
+     "value_usd": 0.5349222189999999,
+     "liq": 52130.98
+    },
+    {
+     "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+     "symbol": "Bonk",
+     "amount": 11416.64532,
+     "price": 2.934e-06,
+     "value_usd": 0.03349643736888,
+     "liq": 303455.9
+    },
+    {
+     "mint": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+     "symbol": "USDY",
+     "amount": 0.009704,
+     "price": 1.14,
+     "value_usd": 0.01106256,
+     "liq": 2914898.52
+    },
+    {
+     "mint": "BsQF48AptZgLsCJXccUZhhimdH4UL8tEJa3eb9xdjGTA",
+     "symbol": "GTAVI",
+     "amount": 1000.0,
+     "price": 9.567e-06,
+     "value_usd": 0.009567,
+     "liq": 16240.12
+    },
+    {
+     "mint": "Dw6JXJC3EVCKN8MWu3G2ewCmRFkPCNnh5VCuz5qdpump",
+     "symbol": "NILF",
+     "amount": 745.658252,
+     "price": 2.619e-06,
+     "value_usd": 0.0019528789619879998,
+     "liq": 4733.58
+    },
+    {
+     "mint": "7fmHqRpJLgpVsJFTvrv24CEjkz9c4o5uVX4Zdur1hz35",
+     "symbol": "Dinger",
+     "amount": 79.553742,
+     "price": 2.074e-05,
+     "value_usd": 0.0016499446090800002,
+     "liq": 13468.41
+    }
+   ],
+   "verdict": "rejected",
+   "copy_enabled": false,
+   "risk_note": "Son işlemler $0–2 değerinde pump.fun token 'alımları' (airdrop/toz benzeri); %40 kazanma, 3500+ işlem. Sahte/anlamsız işlem akışı → REDDEDİLDİ.",
+   "risk_flags": [
+    "dust/spam işlem",
+    "bot benzeri"
+   ],
+   "swaps_3h_verified": 8,
+   "twitter": "https://x.com/Ban_Val",
+   "recent_swaps": [
+    {
+     "ts": "2026-10-18T14:46:54+03:00",
+     "side": "buy",
+     "mint": "6WD2yXtb1oRHZtibxvTdcPs28dx5jLDmw1ZqyPwppump",
+     "usd": 0.1560685,
+     "sig": "53jnPijf35c1z8G2FvEVMPgyvm56QJZ8ZN6PgTBith7vyic5WznaSfxMfnjtz8KhVDGRGvoa1N9rf8zo83idxSTh"
+    },
+    {
+     "ts": "2026-10-18T14:46:54+03:00",
+     "side": "buy",
+     "mint": "6WD2yXtb1oRHZtibxvTdcPs28dx5jLDmw1ZqyPwppump",
+     "usd": 0.1560685,
+     "sig": "2XL9MWEusN1a1HjonboSV2jFez6cu5hmLGcxZDwHbQUQPkRGq7q7yPERADsfpXq9eiAPLxhTHK5xJNX4FF4wFVmh"
+    },
+    {
+     "ts": "2026-10-18T14:44:56+03:00",
+     "side": "buy",
+     "mint": "6WD2yXtb1oRHZtibxvTdcPs28dx5jLDmw1ZqyPwppump",
+     "usd": 0.15503150000000002,
+     "sig": "4EFNRJGX31Q4mMstMbJnaAKCThdon95fWECQqdqhkP4hB24UqrYUHEQDcbwazTnv1ZprynhGmxZFjEGNAGHgHPtr"
+    },
+    {
+     "ts": "2026-10-18T14:42:49+03:00",
+     "side": "sell",
+     "mint": "6GgM1kVRUY9AUoSr6VzqwK9ZNHdGac3XjfGyzx1spump",
+     "usd": 190.8851003032,
+     "sig": "3di18vdP7NvpybhaFoR7hcAeaXfbqryU3c7E5cAPXAByAqDx4pnBSbrbxggx69C4aZiL73oLSFBhCEBYuKizY59V"
+    },
+    {
+     "ts": "2026-10-18T14:40:07+03:00",
+     "side": "buy",
+     "mint": "6WD2yXtb1oRHZtibxvTdcPs28dx5jLDmw1ZqyPwppump",
+     "usd": 199.32296000000002,
+     "sig": "4k8GBJgrZhq8zNBPYQrm4GcaWJtoF4G1S7EfPE87fZLrEiMMkN64Wy3oR4ZTASTjt1Jz8TEV1sEyEx7LsVAZKrWW"
+    },
+    {
+     "ts": "2026-10-18T14:38:26+03:00",
+     "side": "buy",
+     "mint": "6GgM1kVRUY9AUoSr6VzqwK9ZNHdGac3XjfGyzx1spump",
+     "usd": 0.15512120000000001,
+     "sig": "2Yfj5zzsfbmDLR4We9nSDaQmA6xEkhV4ekFn6kBses2BRFirQxrCbRxUcVbiGLDRvpWJPZCJ3FB3e4rSQLiqz7Qo"
+    },
+    {
+     "ts": "2026-10-18T14:38:17+03:00",
+     "side": "buy",
+     "mint": "BfZCMNKLQkiTyTMuu7gkEQyJD2wKpzkQWhPGsGWgpump",
+     "usd": 0.137658392,
+     "sig": "4PE9SytnVNVULqV424wGfm14dEFjbR3za2b1ERZArxkdcTcgxSfBfZXi7VrEf5BywQAvzTJyPVhbPTQSh6rk2TCq"
+    },
+    {
+     "ts": "2026-10-18T14:36:04+03:00",
+     "side": "sell",
+     "mint": "3ZHH8akMHEhnpNMhREvnL21z9EVAgW5aai3J4skHpump",
+     "usd": 91.8740575024,
+     "sig": "2FiQCrED3QmzEAqx5GVyiiR9MnFwxYFmQ7dthJwwTgHPYLgFv7jt15GknHeSrqR9TqjZZqvsYKQxt61xMu5SebBd"
+    },
+    {
+     "ts": "2026-10-18T14:35:34+03:00",
+     "side": "buy",
+     "mint": "3ZHH8akMHEhnpNMhREvnL21z9EVAgW5aai3J4skHpump",
+     "usd": 17.051226632080002,
+     "sig": "3zqR3jFMpZ9NiavBAVxyz4bu5YPtga5dJrtWEDfcbZ6mmQZLPgNtTSm5WPmrJkN4dGB4ncvuS3aw5MKmXL47vEDw"
+    },
+    {
+     "ts": "2026-10-18T14:34:40+03:00",
+     "side": "buy",
+     "mint": "3ZHH8akMHEhnpNMhREvnL21z9EVAgW5aai3J4skHpump",
+     "usd": 0.15512120000000001,
+     "sig": "4EaAz6xzagRdYXtsXtSgGa56Bx67Uw1F35MRE59ixmpRP9FThefFEMD8YeWxW2ovJcUtSPbH7Qud6xSANd7dLWGS"
+    },
+    {
+     "ts": "2026-10-18T14:34:31+03:00",
+     "side": "buy",
+     "mint": "6GgM1kVRUY9AUoSr6VzqwK9ZNHdGac3XjfGyzx1spump",
+     "usd": 25.78436,
+     "sig": "5vE1qsKvdiUXfBc6F4WF8BRufwFPVxwygUnrVN21mxo9dLBc9KHDySd5hgCb2JSfnN1m1wFzgtxy95usSkNuseLG"
+    },
+    {
+     "ts": "2026-10-18T14:32:08+03:00",
+     "side": "buy",
+     "mint": "6GgM1kVRUY9AUoSr6VzqwK9ZNHdGac3XjfGyzx1spump",
+     "usd": 17.742960000000004,
+     "sig": "5w6jLerY63zvhP4dNpjE7LFENLRBx2G1Kv3VKCaB4LFdEaU5BPNNVB3eRxuwSVaUBp3KUSt2HJzgYwSuAw9zBpi4"
+    },
+    {
+     "ts": "2026-10-18T14:31:40+03:00",
+     "side": "buy",
+     "mint": "3ZHH8akMHEhnpNMhREvnL21z9EVAgW5aai3J4skHpump",
+     "usd": 83.2688360384,
+     "sig": "3MhNL7zVZECFxKjhYRe9vPV9rcnyyYNhEUnhssNUFujzGAw23BNQCxx2qhQ7jv5NdLzEmAS22RedCNiBURJwXfxE"
+    },
+    {
+     "ts": "2026-10-18T14:31:00+03:00",
+     "side": "sell",
+     "mint": "2w5F9S2o2ZM4drMAGpjGXAXTSJTbJJhZWx3jWWDZ6odY",
+     "usd": 149.83834094784,
+     "sig": "5bnMjr8nk9rvhGcA6HP4ACR8xY2MifkRvh2tdLWeCqgoGPbPF6drGEktobLRFpJPhfRYuY1DGmx8SD3Qrt4g7t2W"
+    },
+    {
+     "ts": "2026-10-18T14:15:51+03:00",
+     "side": "buy",
+     "mint": "BfZCMNKLQkiTyTMuu7gkEQyJD2wKpzkQWhPGsGWgpump",
+     "usd": 0.1553305,
+     "sig": "2H7mRNCcFHKNCdyghSVmeD8Ywv3ZVVLAmkfjnmcZe77rDD5kUuQhe5STadh1XVMPXBG5HLKmXNWmb86QjDxV65Gp"
+    }
+   ],
+   "open_positions_note": "32 token hesabı, fiyatlı olanlardan ilk 8 (DexScreener)",
+   "sol_balance": 136.579764516
+  },
+  {
+   "address": "0x551ee8420d4a1711e5f63eb47c532738940805c8",
+   "chain": "robinhood",
+   "label": "bluntz_capital (RH)",
+   "sources": [
+    "fomo-api parity board (Robinhood ağı kırılımı)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 162493,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "fomo-api hesabı, yalnızca Robinhood ağı, 30g, realized+unrealized",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": 102,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792308036.7144415,
+   "last_trade_ist": "2026-10-18T10:20:36+03:00",
+   "last_trade_source": "RH RPC ERC-20 Transfer (yalnızca gelen transfer, swap değil)",
+   "typical_position_usd": 13484,
+   "typical_position_note": "Robinhood hacmi / işlem (30g, fomo-api)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Robinhood ağında +$162k (30g, 102 işlem) ama TÜM zincirlerde fomo-api toplamı −$414k (FOMO raporu +$479k!). Son 12 saatte cüzdana yalnızca GELEN token transferi var (son ~30 dk), giden/swap yok → 'aktif trader' kanıtlanamadı.",
+   "risk_flags": [
+    "raporlanan≠hesaplanan",
+    "son 3s swap doğrulanamadı",
+    "diğer zincirlerde büyük zarar"
+   ],
+   "fomo_api_computed": {
+    "all_chains_reported_pnl_usd": 479138,
+    "all_chains_computed_total_usd": -413874,
+    "robinhood_only_open_priced_pct": 62.5
+   },
+   "recent_swaps": []
+  },
+  {
+   "address": "0x194db29f5bebacf3201abc9dbdda452116a3ff23",
+   "chain": "robinhood",
+   "label": "bigbabba (RH)",
+   "sources": [
+    "fomo-api parity board (Robinhood ağı kırılımı)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 75566,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "fomo-api hesabı, yalnızca Robinhood ağı, 30g, realized+unrealized",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": 320,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792297656.7144415,
+   "last_trade_ist": "2026-10-18T07:27:36+03:00",
+   "last_trade_source": "RH RPC ERC-20 Transfer",
+   "typical_position_usd": 2102,
+   "typical_position_note": "Robinhood hacmi / işlem (30g, fomo-api)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Robinhood ağında +$75.6k (30g, 320 işlem) fakat tüm zincirler toplamı −$104k (FOMO raporu +$335k). Cüzdanda son token hareketi ~3.4 saat önce → 3 saat aktiflik şartını karşılamıyor.",
+   "risk_flags": [
+    "3 saatten eski",
+    "raporlanan≠hesaplanan"
+   ],
+   "fomo_api_computed": {
+    "all_chains_reported_pnl_usd": 334883,
+    "all_chains_computed_total_usd": -104387,
+    "robinhood_only_open_priced_pct": 45.8333
+   },
+   "recent_swaps": []
+  },
+  {
+   "address": "0x24fb52e17e3d4fd62a119b8f53c1a3f3bfe65c2f",
+   "chain": "robinhood",
+   "label": "end837 (RH)",
+   "sources": [
+    "fomo-api parity board (Robinhood ağı kırılımı)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": 49935,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": "fomo-api hesabı, yalnızca Robinhood ağı, 30g, realized+unrealized",
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": 55,
+   "avg_hold_sec": null,
+   "last_trade_epoch": null,
+   "last_trade_ist": null,
+   "last_trade_source": null,
+   "typical_position_usd": 2036,
+   "typical_position_note": "Robinhood hacmi / işlem (30g, fomo-api)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Robinhood ağında +$49.9k (30g, 55 işlem); tüm zincirler toplamı −$27.8k (FOMO raporu +$463k). Son 12 saatte RH ağında token transferi bulunamadı → aktif değil.",
+   "risk_flags": [
+    "12 saatte aktivite yok",
+    "raporlanan≠hesaplanan"
+   ],
+   "fomo_api_computed": {
+    "all_chains_reported_pnl_usd": 463119,
+    "all_chains_computed_total_usd": -27804,
+    "robinhood_only_open_priced_pct": 92.5926
+   },
+   "recent_swaps": []
+  },
+  {
+   "address": "0xbb99d3192aacb0dd76e4d080cd5c1f621efe4166",
+   "chain": "robinhood",
+   "label": "RH on-chain #1",
+   "sources": [
+    "GeckoTerminal örneklenmiş havuz işlemleri (24g)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": null,
+   "win_rate_pct": 100,
+   "win_loss": "örnek: 2K/0Z, 2 token (24g)",
+   "trades_7d": null,
+   "trades_30d": null,
+   "avg_hold_sec": 96,
+   "last_trade_epoch": 1792309057.0,
+   "last_trade_ist": "2026-10-18T10:37:37+03:00",
+   "last_trade_source": "GeckoTerminal havuz işlemleri (Uniswap, Robinhood Chain)",
+   "typical_position_usd": 24,
+   "typical_position_note": "ort. alış, 24g örnek (türetilmiş)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Sadece zincir üstü örnek: 8 alış/6 satış, 24g örnek realized ≈ $1.80 (2 kapanmış token, hepsi kâr) — tutarlar çok küçük (~$24 sabit alım: bot/test cüzdanı gibi). Karlı trader kanıtı DEĞİL.",
+   "risk_flags": [
+    "mikro tutar",
+    "bot benzeri sabit boyut",
+    "3 cüzdan aynı anda/aynı tutar (aynı operatör?)"
+   ],
+   "pnl_24h_sample_usd": 1.8,
+   "recent_swaps": []
+  },
+  {
+   "address": "0xb928d2d92d2863753e76040a2bdfd768ef5c7ad5",
+   "chain": "robinhood",
+   "label": "RH on-chain #2",
+   "sources": [
+    "GeckoTerminal örneklenmiş havuz işlemleri (24g)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": null,
+   "win_rate_pct": 100,
+   "win_loss": "örnek: 2K/0Z, 2 token (24g)",
+   "trades_7d": null,
+   "trades_30d": null,
+   "avg_hold_sec": 92,
+   "last_trade_epoch": 1792309026.0,
+   "last_trade_ist": "2026-10-18T10:37:06+03:00",
+   "last_trade_source": "GeckoTerminal havuz işlemleri (Uniswap, Robinhood Chain)",
+   "typical_position_usd": 24,
+   "typical_position_note": "ort. alış, 24g örnek (türetilmiş)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Sadece zincir üstü örnek: 5 alış/6 satış, 24g örnek realized ≈ $1.16 (2 kapanmış token, hepsi kâr) — tutarlar çok küçük (~$24 sabit alım: bot/test cüzdanı gibi). Karlı trader kanıtı DEĞİL.",
+   "risk_flags": [
+    "mikro tutar",
+    "bot benzeri sabit boyut",
+    "3 cüzdan aynı anda/aynı tutar (aynı operatör?)"
+   ],
+   "pnl_24h_sample_usd": 1.16,
+   "recent_swaps": []
+  },
+  {
+   "address": "0x138c0dc2b8775c7b6860cb6e11df7191f823516f",
+   "chain": "robinhood",
+   "label": "RH on-chain #3",
+   "sources": [
+    "GeckoTerminal örneklenmiş havuz işlemleri (24g)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": null,
+   "win_rate_pct": 100,
+   "win_loss": "örnek: 3K/0Z, 3 token (24g)",
+   "trades_7d": null,
+   "trades_30d": null,
+   "avg_hold_sec": 43,
+   "last_trade_epoch": 1792309022.0,
+   "last_trade_ist": "2026-10-18T10:37:02+03:00",
+   "last_trade_source": "GeckoTerminal havuz işlemleri (Uniswap, Robinhood Chain)",
+   "typical_position_usd": 24,
+   "typical_position_note": "ort. alış, 24g örnek (türetilmiş)",
+   "open_positions": [],
+   "verdict": "watchlist",
+   "copy_enabled": false,
+   "risk_note": "Sadece zincir üstü örnek: 5 alış/4 satış, 24g örnek realized ≈ $1.16 (3 kapanmış token, hepsi kâr) — tutarlar çok küçük (~$24 sabit alım: bot/test cüzdanı gibi). Karlı trader kanıtı DEĞİL.",
+   "risk_flags": [
+    "mikro tutar",
+    "bot benzeri sabit boyut",
+    "3 cüzdan aynı anda/aynı tutar (aynı operatör?)"
+   ],
+   "pnl_24h_sample_usd": 1.16,
+   "recent_swaps": []
+  },
+  {
+   "address": "0xe97e5dca7e9ec9b117cd5e9829af849653a0c026",
+   "chain": "robinhood",
+   "label": "RH bot adayı",
+   "sources": [
+    "GeckoTerminal örneklenmiş havuz işlemleri (24g)"
+   ],
+   "pnl_7d_usd": null,
+   "pnl_30d_usd": null,
+   "pnl_7d_basis": null,
+   "pnl_30d_basis": null,
+   "win_rate_pct": null,
+   "win_loss": null,
+   "trades_7d": null,
+   "trades_30d": null,
+   "avg_hold_sec": null,
+   "last_trade_epoch": 1792309068.0,
+   "last_trade_ist": "2026-10-18T10:37:48+03:00",
+   "last_trade_source": "GeckoTerminal havuz işlemleri",
+   "typical_position_usd": 12,
+   "typical_position_note": "ort. alış, 24g örnek (türetilmiş)",
+   "open_positions": [],
+   "verdict": "rejected",
+   "copy_enabled": false,
+   "risk_note": "132 işlem (66 alış/66 satış), toplam hacim $1592, ort. alış $12: mekanik, hacim üreten bot (wash/market-maker örüntüsü). REDDEDİLDİ.",
+   "risk_flags": [
+    "bot/wash örüntüsü"
+   ],
+   "recent_swaps": []
+  }
+ ],
+ "paper": {
+  "start_balance": 600.0,
+  "entry_usd": 30.0,
+  "cash": 507.83063115990365,
+  "realized": 57.83063115990352,
+  "open": [
+   {
+    "id": "6451-3gie-1792305081",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump",
+    "symbol": "MUTTS",
+    "qty": 279433.0522065742,
+    "size_usd": 30.0,
+    "entry_price": 0.00010736024161458948,
+    "opened": "2026-10-18T09:31:21+03:00",
+    "opened_epoch": 1792305081,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/2gkkctzmgzi7kzgfmbrjn1hiwfy8mqvkvbrdajuai49c",
+    "current_price": 0.0001088,
+    "price_live": true,
+    "value_usd": 30.40231608007527,
+    "unrealized_usd": 0.40231608007526987,
+    "unrealized_pct": 1.3410536002508995
+   },
+   {
+    "id": "8tws-DLGR-1792306974",
+    "wallet": "8twsWnstwn2MvWiZNaLBYzQjaeo16mNmn4y29zYWwQuS",
+    "wallet_label": "FitGiantSnail",
+    "chain": "solana",
+    "mint": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+    "symbol": "TCG",
+    "qty": 15392.045801101924,
+    "size_usd": 30.0,
+    "entry_price": 0.0019490586493611062,
+    "opened": "2026-10-18T10:02:54+03:00",
+    "opened_epoch": 1792306974,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/9ncs7ht3tfw35pxbhg9jkpqhqnhvtuabqtjidsmmpvv",
+    "current_price": 0.001991,
+    "price_live": true,
+    "value_usd": 30.645563189993933,
+    "unrealized_usd": 0.6455631899939327,
+    "unrealized_pct": 2.1518772999797755
+   },
+   {
+    "id": "Df7D-3A3q-1792320552",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "chain": "solana",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "symbol": "mucron",
+    "qty": 63699.27149266502,
+    "size_usd": 30.0,
+    "entry_price": 0.000470963,
+    "opened": "2026-10-18T13:49:12+03:00",
+    "opened_epoch": 1792320552,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/af7w724kw2a7z5pbacas6rnq8ubikewqisa715bxgbfa",
+    "current_price": 0.0008017,
+    "price_live": true,
+    "value_usd": 51.06770595566955,
+    "unrealized_usd": 21.067705955669553,
+    "unrealized_pct": 70.22568651889851
+   },
+   {
+    "id": "6451-2ay4-1792323592",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+    "symbol": "Nihilism",
+    "qty": 220839.92785895691,
+    "size_usd": 30.0,
+    "entry_price": 0.000135845,
+    "opened": "2026-10-18T14:39:52+03:00",
+    "opened_epoch": 1792323592,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/2f1amisbhbrqxlp6kxfw2smaxrzgzmnt6o7qfsnbanas",
+    "current_price": 0.0001329,
+    "price_live": true,
+    "value_usd": 29.349626412455375,
+    "unrealized_usd": -0.6503735875446246,
+    "unrealized_pct": -2.167911958482082
+   },
+   {
+    "id": "6451-2Srf-1792323754",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
+    "symbol": "CyberAxe",
+    "qty": 47555.18779543661,
+    "size_usd": 30.0,
+    "entry_price": 0.000630846,
+    "opened": "2026-10-18T14:42:34+03:00",
+    "opened_epoch": 1792323754,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/aje7ewhjmbjvwib78dgws8izxb7bgx7nxlzvxx6xmhn6",
+    "current_price": 0.0005878,
+    "price_live": true,
+    "value_usd": 27.952939386157635,
+    "unrealized_usd": -2.0470606138423655,
+    "unrealized_pct": -6.823535379474552
+   }
+  ],
+  "closed": [
+   {
+    "id": "AVjE-33o4-1792323120",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "chain": "solana",
+    "mint": "33o4Lhq89uJoRGCAFco48XjeFhqbWJoi9KHzxrnwpump",
+    "symbol": "LPL",
+    "qty": 814226.159458051,
+    "size_usd": 30.0,
+    "entry_price": 3.6844800000000003e-05,
+    "opened": "2026-10-18T14:32:00+03:00",
+    "opened_epoch": 1792323120,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/2uhycl3viqnjqz8q8naqrpwhtvtizaooqwqrruiphn9s",
+    "exit_price": 3.61152e-05,
+    "closed": "2026-10-18T14:32:06+03:00",
+    "closed_epoch": 1792323126,
+    "proceeds_usd": 29.405940594059405,
+    "pnl_usd": -0.5940594059405946,
+    "pnl_pct": -1.980198019801982,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "6451-3XEq-1792318830",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+    "symbol": "MAKERS",
+    "qty": 324764.5997925837,
+    "size_usd": 30.0,
+    "entry_price": 9.23746e-05,
+    "opened": "2026-10-18T13:20:30+03:00",
+    "opened_epoch": 1792318830,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/d6g4brfhugystkpcbkmueqesnd7gjugzdczenicattmy",
+    "current_price": 9.538e-05,
+    "price_live": true,
+    "value_usd": 30.97604752821663,
+    "unrealized_usd": 0.976047528216629,
+    "unrealized_pct": 3.2534917607220963,
+    "exit_price": 7.92495e-05,
+    "closed": "2026-10-18T14:26:49+03:00",
+    "closed_epoch": 1792322809,
+    "proceeds_usd": 25.737432151262357,
+    "pnl_usd": -4.262567848737643,
+    "pnl_pct": -14.208559495792143,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "AVjE-CM5B-1792322061",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "chain": "solana",
+    "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+    "symbol": "Sagace",
+    "qty": 889044.30700478,
+    "size_usd": 30.0,
+    "entry_price": 3.37441e-05,
+    "opened": "2026-10-18T14:14:21+03:00",
+    "opened_epoch": 1792322061,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/fw6v9cgzjghdt6ys1wm9g2bol86222t6hhn8mbh9elb3",
+    "current_price": 3.341e-05,
+    "price_live": true,
+    "value_usd": 29.7029702970297,
+    "unrealized_usd": -0.29702970297029907,
+    "unrealized_pct": -0.9900990099009969,
+    "exit_price": 3.0759299999999995e-05,
+    "closed": "2026-10-18T14:17:45+03:00",
+    "closed_epoch": 1792322265,
+    "proceeds_usd": 27.34638055245213,
+    "pnl_usd": -2.6536194475478716,
+    "pnl_pct": -8.845398158492905,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "Df7D-7rwL-1792317036",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "chain": "solana",
+    "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+    "symbol": "🤗",
+    "qty": 524972.9638923595,
+    "size_usd": 30.0,
+    "entry_price": 5.71458e-05,
+    "opened": "2026-10-18T12:50:36+03:00",
+    "opened_epoch": 1792317036,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/6cv88mat8nxkhgqerquy13fntp7jlcf1wtumewtnxabc",
+    "exit_price": 5.6014199999999996e-05,
+    "closed": "2026-10-18T13:53:21+03:00",
+    "closed_epoch": 1792320801,
+    "proceeds_usd": 29.405940594059402,
+    "pnl_usd": -0.5940594059405981,
+    "pnl_pct": -1.9801980198019937,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "6451-DNTC-1792317543",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "DNTCnZCmfvcj57ZTC8pVnYsTCehi4xuF4ya6Jk4Qpump",
+    "symbol": "KARASU",
+    "qty": 1466813.3480014668,
+    "size_usd": 30.0,
+    "entry_price": 2.04525e-05,
+    "opened": "2026-10-18T12:59:03+03:00",
+    "opened_epoch": 1792317543,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/5s1fp12azjtasppomf7xpc8hlbgzqirtj4de8sdxp11f",
+    "exit_price": 2.00475e-05,
+    "closed": "2026-10-18T13:14:09+03:00",
+    "closed_epoch": 1792318449,
+    "proceeds_usd": 29.40594059405941,
+    "pnl_usd": -0.594059405940591,
+    "pnl_pct": -1.9801980198019702,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "Df7D-3A3q-1792315969",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "chain": "solana",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "symbol": "mucron",
+    "qty": 227434.68833866544,
+    "size_usd": 30.0,
+    "entry_price": 0.000131906,
+    "opened": "2026-10-18T12:32:49+03:00",
+    "opened_epoch": 1792315969,
+    "entry_basis": "live_dexscreener",
+    "url": "https://dexscreener.com/solana/af7w724kw2a7z5pbacas6rnq8ubikewqisa715bxgbfa",
+    "current_price": 0.0001136,
+    "price_live": true,
+    "value_usd": 25.836580595272395,
+    "unrealized_usd": -4.163419404727605,
+    "unrealized_pct": -13.87806468242535,
+    "exit_price": 0.000461637,
+    "closed": "2026-10-18T12:50:17+03:00",
+    "closed_epoch": 1792317017,
+    "proceeds_usd": 104.99226722059649,
+    "pnl_usd": 74.99226722059649,
+    "pnl_pct": 249.97422406865496,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "Df7D-4RFb-1792308378",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "chain": "solana",
+    "mint": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
+    "symbol": "PIPS",
+    "qty": 231112.55576957428,
+    "size_usd": 30.0,
+    "entry_price": 0.00012980688089448002,
+    "opened": "2026-10-18T10:26:18+03:00",
+    "opened_epoch": 1792308378,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/bpfj6kjbqmvid6fumbnzxpyswzkuejhg1tce4i49kj7e",
+    "current_price": 0.0001929,
+    "price_live": true,
+    "value_usd": 44.58161200795088,
+    "unrealized_usd": 14.58161200795088,
+    "unrealized_pct": 48.60537335983627,
+    "exit_price": 3.15414e-05,
+    "closed": "2026-10-18T12:01:29+03:00",
+    "closed_epoch": 1792314089,
+    "proceeds_usd": 7.28961356655045,
+    "pnl_usd": -22.71038643344955,
+    "pnl_pct": -75.7012881114985,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "6451-D4rz-1792305947",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "symbol": "CCAT",
+    "qty": 5375620.750528218,
+    "size_usd": 30.0,
+    "entry_price": 5.580750836459612e-06,
+    "opened": "2026-10-18T09:45:47+03:00",
+    "opened_epoch": 1792305947,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/gixwuocyw9qfb6sx9guoake6bm4rtltpplmtaqxhddbs",
+    "exit_price": 8.111989289090093e-06,
+    "closed": "2026-10-18T09:54:24+03:00",
+    "closed_epoch": 1792306464,
+    "proceeds_usd": 43.606977950495356,
+    "pnl_usd": 13.606977950495356,
+    "pnl_pct": 45.35659316831786,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "6451-DAem-1792306404",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "chain": "solana",
+    "mint": "DAemPFNc3RtibBDKkUA4eL2Ns11q9VRdbpptmqm8DGqN",
+    "symbol": "CAKE",
+    "qty": 197119.4700392484,
+    "size_usd": 30.0,
+    "entry_price": 0.00015219196761246724,
+    "opened": "2026-10-18T09:53:24+03:00",
+    "opened_epoch": 1792306404,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/7rz5eyrfgravgtfg9jsog77mnnvkqrr6dnegpxifk2ca",
+    "exit_price": 0.00014711787943349052,
+    "closed": "2026-10-18T09:54:17+03:00",
+    "closed_epoch": 1792306457,
+    "proceeds_usd": 28.99979842722769,
+    "pnl_usd": -1.0002015727723084,
+    "pnl_pct": -3.334005242574361,
+    "close_reason": "kaynak cüzdan sattı"
+   },
+   {
+    "id": "G6fU-AcV6-1792305800",
+    "wallet": "G6fUXjMKPJzCY1rveAE6Qm7wy5U3vZgKDJmN1VPAdiZC",
+    "wallet_label": "clukz",
+    "chain": "solana",
+    "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
+    "symbol": "TSI",
+    "qty": 67171.33124641076,
+    "size_usd": 30.0,
+    "entry_price": 0.0004466191073383412,
+    "opened": "2026-10-18T09:43:20+03:00",
+    "opened_epoch": 1792305800,
+    "entry_basis": "wallet_fill_est",
+    "url": "https://dexscreener.com/solana/9hgwpedltpvykbumkofhhbnwqgm2sjdemheplx3rocbd",
+    "exit_price": 0.0004710393395818175,
+    "closed": "2026-10-18T09:43:26+03:00",
+    "closed_epoch": 1792305806,
+    "proceeds_usd": 31.640339509140826,
+    "pnl_usd": 1.6403395091408264,
+    "pnl_pct": 5.467798363802754,
+    "close_reason": "kaynak cüzdan sattı"
+   }
+  ],
+  "log": [
+   {
+    "ts": "2026-10-18T14:44:40+03:00",
+    "epoch": 1792323880,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Fakeipedia",
+    "mint": "GShJ8XT5xxCMMY9rGLybDRY1S3Vr47GF2D2mjvj5pump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T14:42:34+03:00",
+    "epoch": 1792323754,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "CyberAxe",
+    "mint": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
+    "size_usd": 30.0,
+    "price": 0.000630846,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T14:39:52+03:00",
+    "epoch": 1792323592,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "Nihilism",
+    "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+    "size_usd": 30.0,
+    "price": 0.000135845,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T14:32:06+03:00",
+    "epoch": 1792323126,
+    "kind": "close",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "LPL",
+    "mint": "33o4Lhq89uJoRGCAFco48XjeFhqbWJoi9KHzxrnwpump",
+    "price": 3.61152e-05,
+    "pnl_usd": -0.5940594059405946,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T14:32:00+03:00",
+    "epoch": 1792323120,
+    "kind": "open",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "LPL",
+    "mint": "33o4Lhq89uJoRGCAFco48XjeFhqbWJoi9KHzxrnwpump",
+    "size_usd": 30.0,
+    "price": 3.6844800000000003e-05,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T14:26:49+03:00",
+    "epoch": 1792322809,
+    "kind": "close",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "MAKERS",
+    "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+    "price": 7.92495e-05,
+    "pnl_usd": -4.262567848737643,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T14:25:10+03:00",
+    "epoch": 1792322710,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Hôtel",
+    "mint": "2g3M2xF9ADS9J7Tm2Y7aSKsWQ85zYu4DJm8M4riKpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T14:18:16+03:00",
+    "epoch": 1792322296,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Trojan",
+    "mint": "4Mbh6kduBskobTwA6px792kJxnnirBk9YGZqRtDZ4xCC",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T14:18:04+03:00",
+    "epoch": 1792322284,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Trojan",
+    "mint": "4Mbh6kduBskobTwA6px792kJxnnirBk9YGZqRtDZ4xCC",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T14:17:45+03:00",
+    "epoch": 1792322265,
+    "kind": "close",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Sagace",
+    "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+    "price": 3.0759299999999995e-05,
+    "pnl_usd": -2.6536194475478716,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T14:15:34+03:00",
+    "epoch": 1792322134,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Sagace",
+    "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T14:14:21+03:00",
+    "epoch": 1792322061,
+    "kind": "open",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "Sagace",
+    "mint": "CM5B4eqTQCFD95VJDkjmF62cNDC9nZbNgA6kcw74pump",
+    "size_usd": 30.0,
+    "price": 3.37441e-05,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T14:03:55+03:00",
+    "epoch": 1792321435,
+    "kind": "skip",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "mucron",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T13:53:21+03:00",
+    "epoch": 1792320801,
+    "kind": "close",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "🤗",
+    "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+    "price": 5.6014199999999996e-05,
+    "pnl_usd": -0.5940594059405981,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T13:50:09+03:00",
+    "epoch": 1792320609,
+    "kind": "skip",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "mucron",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T13:49:12+03:00",
+    "epoch": 1792320552,
+    "kind": "open",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "mucron",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "size_usd": 30.0,
+    "price": 0.000470963,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T13:20:30+03:00",
+    "epoch": 1792318830,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "MAKERS",
+    "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+    "size_usd": 30.0,
+    "price": 9.23746e-05,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T13:16:07+03:00",
+    "epoch": 1792318567,
+    "kind": "skip",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "🤗",
+    "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T13:14:09+03:00",
+    "epoch": 1792318449,
+    "kind": "close",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "KARASU",
+    "mint": "DNTCnZCmfvcj57ZTC8pVnYsTCehi4xuF4ya6Jk4Qpump",
+    "price": 2.00475e-05,
+    "pnl_usd": -0.594059405940591,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T12:59:03+03:00",
+    "epoch": 1792317543,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "KARASU",
+    "mint": "DNTCnZCmfvcj57ZTC8pVnYsTCehi4xuF4ya6Jk4Qpump",
+    "size_usd": 30.0,
+    "price": 2.04525e-05,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T12:51:22+03:00",
+    "epoch": 1792317082,
+    "kind": "skip",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "🤗",
+    "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T12:50:36+03:00",
+    "epoch": 1792317036,
+    "kind": "open",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "🤗",
+    "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+    "size_usd": 30.0,
+    "price": 5.71458e-05,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T12:50:17+03:00",
+    "epoch": 1792317017,
+    "kind": "close",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "mucron",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "price": 0.000461637,
+    "pnl_usd": 74.99226722059649,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T12:32:49+03:00",
+    "epoch": 1792315969,
+    "kind": "open",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "mucron",
+    "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "size_usd": 30.0,
+    "price": 0.000131906,
+    "note": "canlı fiyat"
+   },
+   {
+    "ts": "2026-10-18T12:01:29+03:00",
+    "epoch": 1792314089,
+    "kind": "close",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "PIPS",
+    "mint": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
+    "price": 3.15414e-05,
+    "pnl_usd": -22.71038643344955,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T11:07:33+03:00",
+    "epoch": 1792310853,
+    "kind": "skip",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:06:57+03:00",
+    "epoch": 1792310817,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:06:19+03:00",
+    "epoch": 1792310779,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:05:53+03:00",
+    "epoch": 1792310753,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:05:16+03:00",
+    "epoch": 1792310716,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:04:26+03:00",
+    "epoch": 1792310666,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:04:26+03:00",
+    "epoch": 1792310666,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T11:04:16+03:00",
+    "epoch": 1792310656,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "rebondit",
+    "mint": "21NVhmJuDVEfrtgQja8ESzn45dLLRcJhQQAuomACpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:49:12+03:00",
+    "epoch": 1792309752,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "L",
+    "mint": "Ya5nVdNy6Jp9KxAfPqBRrz4M8MRjdmJu7u98vGNpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:48:32+03:00",
+    "epoch": 1792309712,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "L",
+    "mint": "Ya5nVdNy6Jp9KxAfPqBRrz4M8MRjdmJu7u98vGNpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:44:02+03:00",
+    "epoch": 1792309442,
+    "kind": "skip",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "Nihilism",
+    "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:32:51+03:00",
+    "epoch": 1792308771,
+    "kind": "skip",
+    "wallet": "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx",
+    "wallet_label": "bystevenr",
+    "symbol": "SEXCOIN",
+    "mint": "48YEeDMG6uRrD69aAiUvMVMLh31GaawCat1wCoU1pump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:32:48+03:00",
+    "epoch": 1792308768,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "3p4ps",
+    "mint": "3p4ps2XK2kFZgb6ZVYtSdyHKWDu1BhBQtmXX6xghe446",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:32:48+03:00",
+    "epoch": 1792308768,
+    "kind": "skip",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "Nihilism",
+    "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:30:12+03:00",
+    "epoch": 1792308612,
+    "kind": "skip",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "MAKERS",
+    "mint": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:29:11+03:00",
+    "epoch": 1792308551,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "佛金疯",
+    "mint": "EnEkfiz7RyDNabMbwAE5mmosEwNfZkh7UhURT7fqpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:28:24+03:00",
+    "epoch": 1792308504,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "佛金疯",
+    "mint": "EnEkfiz7RyDNabMbwAE5mmosEwNfZkh7UhURT7fqpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:27:39+03:00",
+    "epoch": 1792308459,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "佛金疯",
+    "mint": "EnEkfiz7RyDNabMbwAE5mmosEwNfZkh7UhURT7fqpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:27:17+03:00",
+    "epoch": 1792308437,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "佛金疯",
+    "mint": "EnEkfiz7RyDNabMbwAE5mmosEwNfZkh7UhURT7fqpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:27:17+03:00",
+    "epoch": 1792308437,
+    "kind": "skip",
+    "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+    "wallet_label": "Putrick",
+    "symbol": "佛金疯",
+    "mint": "EnEkfiz7RyDNabMbwAE5mmosEwNfZkh7UhURT7fqpump",
+    "reason": "yetersiz serbest bakiye ($24.25 < $30)"
+   },
+   {
+    "ts": "2026-10-18T10:26:18+03:00",
+    "epoch": 1792308378,
+    "kind": "open",
+    "wallet": "Df7DsBZPhHKK6qxG7DQ1jNQ7J5HbJw1eZLhG4M1DWhLH",
+    "wallet_label": "MuDo9453",
+    "symbol": "PIPS",
+    "mint": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
+    "size_usd": 30.0,
+    "price": 0.00012980688089448002,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T10:25:00+03:00",
+    "epoch": 1792308300,
+    "kind": "skip",
+    "wallet": "8twsWnstwn2MvWiZNaLBYzQjaeo16mNmn4y29zYWwQuS",
+    "wallet_label": "FitGiantSnail",
+    "symbol": "TCG",
+    "mint": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T10:02:54+03:00",
+    "epoch": 1792306974,
+    "kind": "open",
+    "wallet": "8twsWnstwn2MvWiZNaLBYzQjaeo16mNmn4y29zYWwQuS",
+    "wallet_label": "FitGiantSnail",
+    "symbol": "TCG",
+    "mint": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+    "size_usd": 30.0,
+    "price": 0.0019490586493611062,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T10:00:37+03:00",
+    "epoch": 1792306837,
+    "kind": "skip",
+    "wallet": "Dvbv5TdAyPpJk16X9mUxWFVicYtCUxTLhuof8TGuUaRv",
+    "wallet_label": "CookDoc",
+    "symbol": "ZORAVO",
+    "mint": "HgYxTBCpWvEstJL5XYXY8WBjwUWT9feeEK6an9QGpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T09:54:24+03:00",
+    "epoch": 1792306464,
+    "kind": "close",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "CCAT",
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "price": 8.111989289090093e-06,
+    "pnl_usd": 13.606977950495356,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T09:54:17+03:00",
+    "epoch": 1792306457,
+    "kind": "close",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "CAKE",
+    "mint": "DAemPFNc3RtibBDKkUA4eL2Ns11q9VRdbpptmqm8DGqN",
+    "price": 0.00014711787943349052,
+    "pnl_usd": -1.0002015727723084,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T09:53:24+03:00",
+    "epoch": 1792306404,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "CAKE",
+    "mint": "DAemPFNc3RtibBDKkUA4eL2Ns11q9VRdbpptmqm8DGqN",
+    "size_usd": 30.0,
+    "price": 0.00015219196761246724,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T09:45:47+03:00",
+    "epoch": 1792305947,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "CCAT",
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "size_usd": 30.0,
+    "price": 5.580750836459612e-06,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T09:43:26+03:00",
+    "epoch": 1792305806,
+    "kind": "close",
+    "wallet": "G6fUXjMKPJzCY1rveAE6Qm7wy5U3vZgKDJmN1VPAdiZC",
+    "wallet_label": "clukz",
+    "symbol": "TSI",
+    "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
+    "price": 0.0004710393395818175,
+    "pnl_usd": 1.6403395091408264,
+    "note": "kaynak cüzdan sattı"
+   },
+   {
+    "ts": "2026-10-18T09:43:21+03:00",
+    "epoch": 1792305801,
+    "kind": "skip",
+    "wallet": "G6fUXjMKPJzCY1rveAE6Qm7wy5U3vZgKDJmN1VPAdiZC",
+    "wallet_label": "clukz",
+    "symbol": "TSI",
+    "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
+    "reason": "zaten açık pozisyon (aynı cüzdan+token)"
+   },
+   {
+    "ts": "2026-10-18T09:43:20+03:00",
+    "epoch": 1792305800,
+    "kind": "open",
+    "wallet": "G6fUXjMKPJzCY1rveAE6Qm7wy5U3vZgKDJmN1VPAdiZC",
+    "wallet_label": "clukz",
+    "symbol": "TSI",
+    "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
+    "size_usd": 30.0,
+    "price": 0.0004466191073383412,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T09:41:27+03:00",
+    "epoch": 1792305687,
+    "kind": "skip",
+    "wallet": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+    "wallet_label": "Mr. Frog",
+    "symbol": "AgenH",
+    "mint": "JAkdowvDpC6ZE3T8H1W4jUGhAzXfHwTiKBXMt8mVpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T09:40:57+03:00",
+    "epoch": 1792305657,
+    "kind": "skip",
+    "wallet": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+    "wallet_label": "Mr. Frog",
+    "symbol": "BAC",
+    "mint": "A25qSmSKGgVmvU8qNxzSq7UjF3RSE9YVu54LFoYrpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T09:31:21+03:00",
+    "epoch": 1792305081,
+    "kind": "open",
+    "wallet": "6451zSoUiy4GZeq2vEUHb73LcDJ8eeCHXEaGSqL8K6Fj",
+    "wallet_label": "redmonster1",
+    "symbol": "MUTTS",
+    "mint": "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump",
+    "size_usd": 30.0,
+    "price": 0.00010736024161458948,
+    "note": "replay: cüzdanın doldurma fiyatı (tahmini)"
+   },
+   {
+    "ts": "2026-10-18T09:18:09+03:00",
+    "epoch": 1792304289,
+    "kind": "skip",
+    "wallet": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+    "wallet_label": "Mr. Frog",
+    "symbol": "retail",
+    "mint": "Ge22KZEFev5fLDtks2e2kq8NRMzSd9CWRhr9krixpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T09:16:39+03:00",
+    "epoch": 1792304199,
+    "kind": "skip",
+    "wallet": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+    "wallet_label": "Mr. Frog",
+    "symbol": "rob",
+    "mint": "7cGwkqCfEDCVsMm1fHQVRcwELyFkVYkLcyhxMQ2Ppump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T08:28:17+03:00",
+    "epoch": 1792301297,
+    "kind": "skip",
+    "wallet": "Dvbv5TdAyPpJk16X9mUxWFVicYtCUxTLhuof8TGuUaRv",
+    "wallet_label": "CookDoc",
+    "symbol": "trueq",
+    "mint": "7T8KfqBrBrW7ZvgkhgzqvfogmBahRZ8bdsRqYS8Lpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   },
+   {
+    "ts": "2026-10-18T08:28:16+03:00",
+    "epoch": 1792301296,
+    "kind": "skip",
+    "wallet": "Dvbv5TdAyPpJk16X9mUxWFVicYtCUxTLhuof8TGuUaRv",
+    "wallet_label": "CookDoc",
+    "symbol": "trueq",
+    "mint": "7T8KfqBrBrW7ZvgkhgzqvfogmBahRZ8bdsRqYS8Lpump",
+    "reason": "düşük likidite ($0 < $5000)"
+   }
+  ],
+  "equity_curve": [
+   {
+    "t": "2026-10-18T10:52:19+03:00",
+    "epoch": 1792309939.092952,
+    "equity": 115.4869590574933,
+    "cash": 23.556097753961062,
+    "realized": 13.556097753961065,
+    "unrealized": 1.930861303532243
+   },
+   {
+    "t": "2026-10-18T10:53:16+03:00",
+    "epoch": 1792309996.6025598,
+    "equity": 119.2748854377084,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.027769550844539
+   },
+   {
+    "t": "2026-10-18T10:54:08+03:00",
+    "epoch": 1792310048.341906,
+    "equity": 119.52910924905493,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.28199336219107
+   },
+   {
+    "t": "2026-10-18T10:54:21+03:00",
+    "epoch": 1792310061.3269966,
+    "equity": 119.8757780827093,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.628662195845433
+   },
+   {
+    "t": "2026-10-18T10:55:43+03:00",
+    "epoch": 1792310143.3368502,
+    "equity": 119.67937624698739,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.432260360123518
+   },
+   {
+    "t": "2026-10-18T10:58:56+03:00",
+    "epoch": 1792310336.020612,
+    "equity": 116.32824418832857,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 2.081128301464691
+   },
+   {
+    "t": "2026-10-18T11:02:09+03:00",
+    "epoch": 1792310529.6506386,
+    "equity": 117.56081356993255,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 3.313697683068682
+   },
+   {
+    "t": "2026-10-18T11:05:30+03:00",
+    "epoch": 1792310730.3832324,
+    "equity": 120.6808330728218,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 6.433717185957935
+   },
+   {
+    "t": "2026-10-18T11:08:45+03:00",
+    "epoch": 1792310925.783545,
+    "equity": 117.5839248255095,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 3.336808938645639
+   },
+   {
+    "t": "2026-10-18T11:12:02+03:00",
+    "epoch": 1792311122.2882466,
+    "equity": 119.87193912762828,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.6248232407644245
+   },
+   {
+    "t": "2026-10-18T11:15:16+03:00",
+    "epoch": 1792311316.9874072,
+    "equity": 123.29240495301798,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 9.045289066154123
+   },
+   {
+    "t": "2026-10-18T11:18:32+03:00",
+    "epoch": 1792311512.7076693,
+    "equity": 123.61596253109539,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 9.368846644231521
+   },
+   {
+    "t": "2026-10-18T11:21:46+03:00",
+    "epoch": 1792311706.0673306,
+    "equity": 119.87193912762828,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 5.6248232407644245
+   },
+   {
+    "t": "2026-10-18T11:25:01+03:00",
+    "epoch": 1792311901.9679613,
+    "equity": 126.2737569224455,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 12.02664103558163
+   },
+   {
+    "t": "2026-10-18T11:28:15+03:00",
+    "epoch": 1792312095.816619,
+    "equity": 126.20442315571462,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 11.957307268850759
+   },
+   {
+    "t": "2026-10-18T11:31:29+03:00",
+    "epoch": 1792312289.2800832,
+    "equity": 126.57575789865271,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 12.328642011788851
+   },
+   {
+    "t": "2026-10-18T11:34:47+03:00",
+    "epoch": 1792312487.3686137,
+    "equity": 133.59543873397007,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 19.348322847106193
+   },
+   {
+    "t": "2026-10-18T11:38:05+03:00",
+    "epoch": 1792312685.8606603,
+    "equity": 131.28558533442938,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 17.038469447565518
+   },
+   {
+    "t": "2026-10-18T11:41:20+03:00",
+    "epoch": 1792312880.402966,
+    "equity": 129.34423986596497,
+    "cash": 24.247115886863867,
+    "realized": 14.247115886863874,
+    "unrealized": 15.097123979101092
+   },
+   {
+    "t": "2026-10-18T11:43:35+03:00",
+    "epoch": 1792313015.8996444,
+    "equity": 630.4766913892358,
+    "cash": 524.2471158868639,
+    "realized": 14.247115886863874,
+    "unrealized": 16.229575502372008
+   },
+   {
+    "t": "2026-10-18T12:22:12+03:00",
+    "epoch": 1792315332.9182978,
+    "equity": 593.5228533968649,
+    "cash": 531.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 1.9861239434505578
+   },
+   {
+    "t": "2026-10-18T12:25:27+03:00",
+    "epoch": 1792315527.7791002,
+    "equity": 593.9699462803953,
+    "cash": 531.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 2.433216826981077
+   },
+   {
+    "t": "2026-10-18T12:28:43+03:00",
+    "epoch": 1792315723.7219129,
+    "equity": 594.9200186578977,
+    "cash": 531.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 3.383289204483429
+   },
+   {
+    "t": "2026-10-18T12:32:01+03:00",
+    "epoch": 1792315921.068699,
+    "equity": 594.9200186578977,
+    "cash": 531.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 3.383289204483429
+   },
+   {
+    "t": "2026-10-18T12:35:23+03:00",
+    "epoch": 1792316123.3159707,
+    "equity": 594.6229889549275,
+    "cash": 501.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 3.086259501513137
+   },
+   {
+    "t": "2026-10-18T12:38:39+03:00",
+    "epoch": 1792316319.2384102,
+    "equity": 595.1298566954727,
+    "cash": 501.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": 3.5931272420583724
+   },
+   {
+    "t": "2026-10-18T12:42:02+03:00",
+    "epoch": 1792316522.8017747,
+    "equity": 585.131827796105,
+    "cash": 501.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": -6.404901657309363
+   },
+   {
+    "t": "2026-10-18T12:45:23+03:00",
+    "epoch": 1792316723.498792,
+    "equity": 589.9624946460945,
+    "cash": 501.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": -1.574234807319808
+   },
+   {
+    "t": "2026-10-18T12:48:40+03:00",
+    "epoch": 1792316920.6208615,
+    "equity": 589.5874738927722,
+    "cash": 501.5367294534143,
+    "realized": -8.463270546585676,
+    "unrealized": -1.9492555606420652
+   },
+   {
+    "t": "2026-10-18T14:09:46+03:00",
+    "epoch": 1792321786.8907561,
+    "equity": 667.6827557804382,
+    "cash": 545.3408778621297,
+    "realized": 65.34087786212963,
+    "unrealized": 2.3418779183085583
+   },
+   {
+    "t": "2026-10-18T14:13:07+03:00",
+    "epoch": 1792321987.3317015,
+    "equity": 671.7852431362714,
+    "cash": 545.3408778621297,
+    "realized": 65.34087786212963,
+    "unrealized": 6.444365274141784
+   },
+   {
+    "t": "2026-10-18T14:16:31+03:00",
+    "epoch": 1792322191.8077657,
+    "equity": 678.7492574147334,
+    "cash": 515.3408778621297,
+    "realized": 65.34087786212963,
+    "unrealized": 13.408379552603765
+   },
+   {
+    "t": "2026-10-18T14:44:40+03:00",
+    "epoch": 1792323880.6606214,
+    "equity": 680.0321058618839,
+    "cash": 507.83063115990365,
+    "realized": 57.83063115990352,
+    "unrealized": 22.201474701980224
+   },
+   {
+    "t": "2026-10-18T14:47:56+03:00",
+    "epoch": 1792324076.1644855,
+    "equity": 677.2487821842553,
+    "cash": 507.83063115990365,
+    "realized": 57.83063115990352,
+    "unrealized": 19.418151024351765
+   }
+  ],
+  "created": "2026-10-18T10:52:35+03:00",
+  "unrealized": 19.418151024351765,
+  "equity": 677.2487821842553,
+  "open_value": 169.41815102435174,
+  "pnl_total": 77.24878218425533,
+  "wins": 3,
+  "losses": 7,
+  "rules": {
+   "entry_usd": 30.0,
+   "start_balance": 600.0,
+   "slippage_pct": 1.0,
+   "min_liquidity_usd": 5000.0,
+   "copy": "takip edilen cüzdan AL → demo pozisyon ($30), SAT → kapat; serbest bakiye < $30 ise atla"
+  },
+  "replay_note": "İlk çalıştırmada son N saatin gerçek cüzdan işlemleri 'replay' olarak simüle edilir (giriş=cüzdanın tahmini dolum fiyatı). Sonraki alımlar canlı fiyattan kopyalanır."
+ },
+ "sources": [
+  {
+   "name": "fomo-api.com (public, top-10)",
+   "status": "kullanıldı",
+   "note": "Leaderboard 24h/7d/30d: raporlanan (FOMO) + kendi hesapladığı realized PnL; anonim sınır 10 satır/pencere"
+  },
+  {
+   "name": "kolscan.io leaderboard",
+   "status": "kullanıldı",
+   "note": "SSR sayfasındaki ilk 50 (1g/7g/30g) – profit SOL cinsinden, K/Z sayıları; KOL listesi"
+  },
+  {
+   "name": "Solana public RPC",
+   "status": "kullanıldı",
+   "note": "getSignaturesForAddress/getTransaction: son 3 saatte gerçek swap doğrulaması"
+  },
+  {
+   "name": "DexScreener API",
+   "status": "kullanıldı",
+   "note": "token fiyatı/likidite (demo hesap fiyatları)"
+  },
+  {
+   "name": "GeckoTerminal API",
+   "status": "kullanıldı",
+   "note": "Robinhood Chain havuz işlemleri (örneklem, son 24 saat)"
+  },
+  {
+   "name": "Robinhood Chain public RPC",
+   "status": "kullanıldı",
+   "note": "ERC-20 transfer logları; 30k blok/istek sınırı"
+  },
+  {
+   "name": "GMGN",
+   "status": "engelli",
+   "note": "Cloudflare 403"
+  },
+  {
+   "name": "Birdeye / Solscan Pro / Dune / Helius",
+   "status": "anahtar gerekli",
+   "note": "API key olmadan veri vermiyor"
+  },
+  {
+   "name": "Cielo / Nansen",
+   "status": "erişilemedi",
+   "note": "giriş/ücretli, halka açık leaderboard yok"
+  },
+  {
+   "name": "Robinscan / Blockscout RH",
+   "status": "engelli",
+   "note": "500 / Cloudflare 403 (curl)"
+  },
+  {
+   "name": "ponscopytrading.com",
+   "status": "reddedildi",
+   "note": "düzgün azalan PnL ve %85-94 döngüsel win-rate: sahte/üretilmiş görünüyor"
+  }
+ ]
+}
